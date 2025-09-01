@@ -1,0 +1,11 @@
+{%- assign current_dir = page.dir | replace: '//','/' -%}
+{%- assign pages_in_dir = site.pages | where_exp: "p", "p.path contains current_dir and p.name != 'index.md'" -%}
+{%- assign sorted = pages_in_dir | sort: "order" -%}
+
+<ul>
+{%- for p in sorted -%}
+  <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+    {%- if p.summary %}<br><small>{{ p.summary }}</small>{%- endif %}
+  </li>
+{%- endfor -%}
+</ul>

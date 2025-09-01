@@ -1,21 +1,19 @@
 ---
-layout: default
 title: Home
 ---
 
-# Hi, I'm Sarah Thompson
-Release Engineer • AI Postgrad • Belfast  
+# Master's in AI — E-Portfolio
 
-Welcome to my e-portfolio. Here you’ll find selected **projects**, **writing**, and **coursework**.
+Welcome! This site organizes my coursework **by module**, with sub-pages for each **unit** and links to artefacts (reports, notebooks, datasets).
 
-- 👉 [Projects](projects.md)
-- 📝 [Writing](writing.md)
-- 📄 [CV / Resume](cv.md)
-- 🎓 [Coursework](coursework.md)
-- ✉️ [Contact](mailto:you@example.com)
+## Modules
+- 📘 [Module 1 — Understanding Artificial Intelligence](modules/module-1/)
+- 🤖 [Module 2 — Numerical Analysis](modules/module-2/)
+- 🧭 [Module 3 — Machine Learning](modules/module-3/)
 
 ---
-
-## Highlights
-- Deployment Risk Predictor — agentic AI for release safety (2025)  
-- Airbnb NYC price modeling (Random Forest) — coursework (2025)  
+### How this site is structured
+Each module has:
+- a landing page (overview, learning outcomes)
+- one page per unit with notes and submissions
+- optional sub-sections for artefacts (PDFs, slides, notebooks)

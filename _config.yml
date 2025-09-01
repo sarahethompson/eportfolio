@@ -1,3 +1,11 @@
-title: Sarah Thompson — E-Portfolio
-description: Projects, writing, coursework
-theme: jekyll-theme-cayman    # or minima, slate, hacker, etc.
+title: Sarah Thompson — AI E-Portfolio
+description: Modules, units, and artefacts for my Master's in AI
+theme: jekyll-theme-cayman
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
