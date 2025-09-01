@@ -1,12 +1,13 @@
-{%- assign current_dir = page.dir | replace: '//','/' -%}
-{%- assign pages_in_dir = site.pages | where: "dir", current_dir | sort: "order" -%}
+{%- assign folder = page.dir -%}
+{%- assign by_name = site.pages | sort: "name" -%}   {# stable base: unit-01, unit-02, ... #}
+{%- assign by_order = by_name | sort: "order" -%}    {# uses numeric 'order' when present #}
 
 <ul>
-{%- for p in pages_in_dir -%}
-  {%- if p.name != 'index.md' -%}
+{%- for p in by_order -%}
+  {%- if p.path contains folder and p.name != 'index.md' -%}
     <li>
       <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
-      {%- if p.summary %}<br><small>{{ p.summary }}</small>{%- endif -%}
+      {%- if p.summary and p.summary != "" -%}<br><small>{{ p.summary }}</small>{%- endif -%}
     </li>
   {%- endif -%}
 {%- endfor -%}
