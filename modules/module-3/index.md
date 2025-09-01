@@ -2,7 +2,7 @@
 title: Module 3 — Machine Learning
 ---
 
-[← Back to Home]({{ '/' | relative_url }})
+[← Back to Home](/)
 
 # Module 3 — Machine Learning
 
