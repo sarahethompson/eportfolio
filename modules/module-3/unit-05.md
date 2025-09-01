@@ -6,8 +6,6 @@ summary: Cluster analysis groups similar objects into clusters and is a key expl
 
 [← Back to Module 3](./)
 
-# Unit 5: Clustering
-
 ## Key topics
 - Basic idea behind clustering.
 - Different techniques of distance measurements.

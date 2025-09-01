@@ -6,8 +6,6 @@ summary: Machine Learning uses real-time big data to power everyday decision-mak
 
 [← Back to Module 3](./)
 
-# Unit 1: Introduction to Machine Learning
-
 ## Key topics
 - The past, present and future of machine learning.
 - The challenges and opportunities of using algorithms.

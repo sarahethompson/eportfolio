@@ -4,8 +4,6 @@ title: Module 3 — Machine Learning
 
 [← Back to Home](/)
 
-# Module 3 — Machine Learning
-
 ## Overview
 An introduction to machine learning with a practical approach, providing hands-on cases of real-world data analytics.
 
