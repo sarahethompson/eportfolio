@@ -1,9 +1,12 @@
-{%- assign folder = page.dir -%}
-{%- assign by_name = site.pages | sort: "name" -%}   {# stable base: unit-01, unit-02, ... #}
-{%- assign by_order = by_name | sort: "order" -%}    {# uses numeric 'order' when present #}
+{%- comment -%}
+Stable base order by filename (unit-01, unit-02, …), then by 'order' if present.
+{%- endcomment -%}
+{%- assign folder  = page.dir -%}
+{%- assign by_name = site.pages | sort: "name" -%}
+{%- assign pages   = by_name | sort: "order" -%}
 
 <ul>
-{%- for p in by_order -%}
+{%- for p in pages -%}
   {%- if p.path contains folder and p.name != 'index.md' -%}
     <li>
       <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
