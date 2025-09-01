@@ -2,7 +2,7 @@
 title: Module 3 — Machine Learning
 ---
 
-[← Back to Home](/)
+[← Back to Home](./)
 
 ## Overview
 An introduction to machine learning with a practical approach, providing hands-on cases of real-world data analytics.
