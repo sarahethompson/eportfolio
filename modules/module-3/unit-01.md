@@ -4,6 +4,8 @@ order: 1
 summary: Machine Learning uses real-time big data to power everyday decision-making and profiling, enabling machines to act more accurately and autonomously.
 ---
 
+[← Back to Module 3](./)
+
 # Unit 1: Introduction to Machine Learning
 
 ## Key topics

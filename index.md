@@ -1,8 +1,6 @@
 ---
-title: Home
+title: Master’s in AI — E-Portfolio
 ---
-
-# Master's in AI — E-Portfolio
 
 Welcome! This site organizes my coursework **by module**, with sub-pages for each **unit** and links to artefacts (reports, notebooks, datasets).
 
