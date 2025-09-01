@@ -6,8 +6,6 @@ summary: Exploratory Data Analysis (EDA) validates and cleans raw data, uncovers
 
 [← Back to Module 3](./)
 
-# Unit 2: Exploratory Data Analysis
-
 ## Key topics
 - The steps involved with EDA.
 - Understanding the dataset through feature exploration.

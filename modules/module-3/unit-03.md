@@ -6,8 +6,6 @@ summary: Correlation measures the strength and type of a relationship between va
 
 [← Back to Module 3](./)
 
-# Unit 3: Correlation and Regression
-
 ## Key topics
 - Core aspects of correlation and regression.
 - Techniques to measure them.

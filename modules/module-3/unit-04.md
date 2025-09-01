@@ -6,8 +6,6 @@ summary: This unit covers applying linear regression in Scikit-Learn to model bo
 
 [← Back to Module 3](./)
 
-# Unit 4: Linear Regression with Scikit-Learn
-
 ## Key topics
 - How to use Scikit-Learn to model a linear relationship.
 - How to develop a multivariate linear regression model.
