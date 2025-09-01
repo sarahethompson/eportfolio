@@ -1,5 +1,5 @@
 ---
-title: Unit 2: Exploratory Data Analysis
+title: Unit 2 Exploratory Data Analysis
 order: 2
 summary: Exploratory Data Analysis (EDA) validates and cleans raw data, uncovers hidden insights, and guides the selection and refinement of features for effective machine learning.
 ---

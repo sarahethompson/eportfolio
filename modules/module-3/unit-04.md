@@ -1,5 +1,5 @@
 ---
-title: Unit 4: Linear Regression with Scikit-Learn
+title: Unit 4 Linear Regression with Scikit-Learn
 order: 4
 summary: This unit covers applying linear regression in Scikit-Learn to model both simple and multiple variable relationships.
 ---
