@@ -4,6 +4,8 @@ order: 3
 summary: Correlation measures the strength and type of a relationship between variables, while regression models that relationship with an equation for prediction.
 ---
 
+[← Back to Module 3](./)
+
 # Unit 3: Correlation and Regression
 
 ## Key topics
