@@ -4,7 +4,7 @@ order: 5
 summary: Cluster analysis groups similar objects into clusters and is a key exploratory data analysis technique widely used across fields like pattern recognition, image analysis, and machine learning.
 ---
 
-# Unit 4: Linear Regression with Scikit-Learn
+# Unit 5: Clustering
 
 ## Key topics
 - Basic idea behind clustering.
