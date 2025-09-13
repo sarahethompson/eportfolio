@@ -17,4 +17,4 @@ Your study notes here.
 - Author (Year). *Book/Article title*. Publisher.
 
 ## Artefacts
-- [K-Means Clustering Tutorial](../../artefacts/module-3/unit-06-iris.ipynb)
+- [K-Means Clustering Tutorial](../../artefacts/module-3/unit-6-iris.ipynb)
