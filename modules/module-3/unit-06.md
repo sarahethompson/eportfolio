@@ -17,4 +17,5 @@ Your study notes here.
 - Author (Year). *Book/Article title*. Publisher.
 
 ## Artefacts
-- [K–Means Clustering Tutorial](https://nbviewer.org/github/sarahethompson/eportfolio/blob/main/artefacts/module-3/unit-6-iris.ipynb)
+- [K–Means Clustering Tutorial (view on nbviewer)](https://nbviewer.org/github/sarahethompson/eportfolio/blob/main/artefacts/module-3/unit-6-iris.ipynb)  
+  <sub>[← Back to my portfolio](../..)</sub>
