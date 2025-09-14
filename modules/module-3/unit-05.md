@@ -20,4 +20,4 @@ Your study notes here.
 
 ## Artefacts
 - [Clustering](../../artefacts/module-3/unit-05-clustering.pdf)
-- [Jaccard Coefficient Calculations](../../artefacts/module-3/unit-05-jacc-coe.pdf)
+- [Jaccard Coefficient Calculations](view on nbviewer)](https://nbviewer.org/github/sarahethompson/eportfolio/blob/main/artefacts/module-3/unit-5-Jaccard_Coefficient_Calculations.ipynb)
