@@ -1,6 +1,6 @@
 ---
-title: Unit 5 Clustering with Python
-order: 5
+title: Unit 6 Clustering with Python
+order: 6
 summary: Apply clustering (K-means only) on real life data using the Python libraries in scikit-learn.
 ---
 
@@ -17,4 +17,4 @@ Your study notes here.
 - Author (Year). *Book/Article title*. Publisher.
 
 ## Artefacts
-- [K-Means Clustering Tutorial](../../artefacts/module-3/unit-6-iris.ipynb)
+- [K-Means Clustering Tutorial](../../../artefacts/module-3/unit-6-iris.ipynb)
