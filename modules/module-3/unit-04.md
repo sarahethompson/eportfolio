@@ -24,5 +24,5 @@ So, correlation helps us understand if a linear relationship exists and how stro
 - Author (Year). *Book/Article title*. Publisher.
 
 ## Artefacts
-- [Linear Regression with Scikit Learn](../../artefacts/module-3/unit-4-correlation-regression.ipynb)
+- [Linear Regression with Scikit Learn (view on nbviewer)](https://nbviewer.org/github/sarahethompson/eportfolio/blob/main/artefacts/module-3/unit-4-correlation-regression.ipynb)
 - [Team Update](../../artefacts/module-3/unit-04-team-update.pdf)
