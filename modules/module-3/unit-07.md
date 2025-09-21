@@ -12,12 +12,14 @@ summary: Artificial Neural Network (ANN) is a biology inspired algorithm that, l
 - Different functions used in ANN.
 
 ## Notes
-Your study notes here.
+[Notes on Neural Networks](../../artefacts/module-3/unit-7-notes-on-neural-networks.md)
 
 ## Readings
 - Author (Year). *Book/Article title*. Publisher.
 
 ## Artefacts
+
 ### Perceptron Activities
 - [Simple Perceptron (view on nbviewer)](https://nbviewer.org/github/sarahethompson/eportfolio/blob/main/artefacts/module-3/unit-7-simple-perceptron.ipynb)
 - [Perceptron AND Operator (view on nbviewer)](https://nbviewer.org/github/sarahethompson/eportfolio/blob/main/artefacts/module-3/unit-7-perceptron-and-operator.ipynb)
+- [Multi-layer Perceptron (view on nbviewer)](https://nbviewer.org/github/sarahethompson/eportfolio/blob/main/artefacts/module-3/unit-7-multi-layer-perceptron.ipynb)
