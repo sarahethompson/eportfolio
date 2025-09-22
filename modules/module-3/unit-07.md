@@ -22,4 +22,4 @@ summary: Artificial Neural Network (ANN) is a biology inspired algorithm that, l
 ### Perceptron Activities
 - [Simple Perceptron (view on nbviewer)](https://nbviewer.org/github/sarahethompson/eportfolio/blob/main/artefacts/module-3/unit-7-simple-perceptron.ipynb)
 - [Perceptron AND Operator (view on nbviewer)](https://nbviewer.org/github/sarahethompson/eportfolio/blob/main/artefacts/module-3/unit-7-perceptron-and-operator.ipynb)
-- [Multi-layer Perceptron (view on nbviewer)](https://nbviewer.org/github/sarahethompson/eportfolio/blob/main/artefacts/module-3/unit-7-multi-layer-perceptron.ipynb)
+- [Multi-layer Perceptron (view on nbviewer)](https://nbviewer.org/github/sarahethompson/eportfolio/blob/main/artefacts/module-3/unit-7-multilayer-perceptron.ipynb)
