@@ -1,4 +1,4 @@
-*Correlation and Regression*
+# Correlation and Regression #
 
 **Correlation** measures the strength and direction of the linear relationship between two numerical variables. It tells us how closely the points on a scatter plot cluster around a straight line and whether that line goes up or down.
 
