@@ -12,7 +12,7 @@ summary: Machine Learning uses real-time big data to power everyday decision-mak
 - Interplay among big data analytics, machine learning and artificial intelligence.
 
 ## Notes
-- [Study Notes](../../artefacts/module-3/unit-1-StudyNotes.md)
+- [Study Notes](../../artefacts/module-3/unit-1-study-notes.md)
 
 ## Readings
 - **Deep Learning: Foundations and Concepts**  
