@@ -26,4 +26,4 @@ summary: Apply clustering (K-means only) on real life data using the Python libr
 
 ## Artefacts
 - [K–Means Clustering Tutorial - Iris](../../artefacts/module-3/unit-6-iris.ipynb)
-- [Team Update](../../artefacts/module-3/unit-6-team-update.pdf)
+- [Team Update](../../artefacts/module-3/unit-6-meeting-notes.pdf)
