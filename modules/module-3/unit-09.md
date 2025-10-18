@@ -12,10 +12,20 @@ summary: Deep learning has revolutionised artificial intelligence by enabling hi
 - Applications of CNN in real life.
 
 ## Notes
-[Notes on Neural Networks](../../artefacts/module-3/unit-7-notes-on-neural-networks.md)
+[Notes on CNN](../../artefacts/module-3/unit-10-CNN-notes.md)
 
 ## Readings
-- Author (Year). *Book/Article title*. Publisher.
+- **Deep Learning: Foundations and Concepts**  
+  Bishop, C. and Bishop, H. (2024)  
+  Cambridge University Press, UK  
+  Chapters 5 and 10
+
+- **Quantum ReLU Activation for Convolutional Neural Networks to Improve Diagnosis of Parkinson’s Disease and COVID-19**  
+  Parisi, L. et al. (2022)  
+  Elsevier Ltd, 187, pp. 115892
+
+- **Biased and Wrong? Facial Recognition Tech in the Dock**  
+  Wall, M. (2019)
 
 ## Artefacts
-- [CNN Model ACtivity (view on nbviewer)](https://nbviewer.org/github/sarahethompson/eportfolio/blob/main/artefacts/module-3/unit-9-CNN-model-activity.ipynb)
+- [CNN Model ACtivity (../../artefacts/module-3/unit-9-CNN-model-activity.ipynb)
