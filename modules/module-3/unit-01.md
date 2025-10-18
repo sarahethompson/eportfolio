@@ -1,10 +1,12 @@
 ---
 title: Unit 1 Introduction to Machine Learning
 order: 1
-summary: Machine Learning uses real-time big data to power everyday decision-making and profiling, enabling machines to act more accurately and autonomously.
 ---
 
 [← Back to Module 3](./)
+
+## Summary
+Machine Learning uses real-time big data to power everyday decision-making and profiling, enabling machines to act more accurately and autonomously.
 
 ## Key topics
 - The past, present and future of machine learning.
