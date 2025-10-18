@@ -1,10 +1,12 @@
 ---
 title: Unit 8 Training an Artificial Neural Network
 order: 7
-summary: Last week, we learned about the structure of human neuron and how that influenced the development of artificial neural network (ANN), its structure and how it works. We will continue with the example of ANN discussed last week.
 ---
 
 [← Back to Module 3](./)
+
+## Summary
+Last week, we learned about the structure of human neuron and how that influenced the development of artificial neural network (ANN), its structure and how it works. We will continue with the example of ANN discussed last week.
 
 ## Key topics
 - How the network learns from its mistake or error.
