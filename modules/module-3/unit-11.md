@@ -11,8 +11,8 @@ This unit expands on model selection, evaluation, and deployment, which are crit
 ## Key topics
 - The workflow of model selection, evaluation, and deployment.
 - Techniques for optimising hyperparameters to enhance performance.
-- Metrics beyond accuracy—choosing appropriate evaluation methods.
-- MLOps concepts—ensuring model reproducibility and scalability in production.
+- Metrics beyond accuracy — choosing appropriate evaluation methods.
+- MLOps concepts — ensuring model reproducibility and scalability in production.
 
 ## Notes
 [Notes on Model Selection and Evaluation](../../artefacts/module-3/unit-11-notes.md)

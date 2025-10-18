@@ -1,4 +1,4 @@
-[← Back to Module 3](./)
+[← Back to Module 3](../modules/module-3/index.md)
 
 # Unit 11 – Individual Project: Object Recognition with Convolutional Neural Networks (CNNs)
 

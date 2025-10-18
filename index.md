@@ -2,6 +2,9 @@
 title: Master’s in AI — E-Portfolio
 ---
 
+> **Note:** This submission includes *Module 3 – Machine Learning* only.  
+> Other sections remain in progress and are not part of this submission.
+
 Welcome! This site organizes my coursework **by module**, with sub-pages for each **unit** and links to artefacts (reports, notebooks, datasets).
 
 ## Modules

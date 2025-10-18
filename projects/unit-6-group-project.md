@@ -1,4 +1,4 @@
-[← Back to Module 3](./)
+[← Back to Module 3](../modules/module-3/index.md)
 
 # Unit 6 – Team Project: Airbnb Price Prediction and Market Segmentation in New York City
 
@@ -99,9 +99,9 @@ These lessons informed my independent Unit 11 project, where I applied the same 
 
 ## Artefacts and Supporting Evidence
 
-- 📄 [Final Team Submission – *Airbnb Price Prediction and Segmentation in New York City* (PDF)](project-report.pdf)
-- 📝 [Team Meeting Notes – Week 4 (PDF)](../artefacts/module-3/unit-4-meeting-notes.pdf)
-- 📝 [Team Meeting Notes – Week 6 (PDF)](../artefacts/module-3/unit-6-meeting-notes.pdf)
+-  [Final Team Submission – *Airbnb Price Prediction and Segmentation in New York City* (PDF)](project-report.pdf)
+-  [Team Meeting Notes – Week 4 (PDF)](../artefacts/module-3/unit-4-meeting-notes.pdf)
+-  [Team Meeting Notes – Week 6 (PDF)](../artefacts/module-3/unit-6-meeting-notes.pdf)
 
 **Group Grade:** 72 % (Distinction)  
 **Final Individual Score:** 86 % (Distinction)

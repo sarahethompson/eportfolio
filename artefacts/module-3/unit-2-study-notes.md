@@ -1,4 +1,4 @@
-[← Back to Unit 2](./)
+[← Back to Unit 2](../../modules/module-3/unit-02.md)
 
 # Exploratory Data Analysis (EDA) – Study Notes
 
