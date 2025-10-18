@@ -15,3 +15,8 @@ An introduction to machine learning with a practical approach, providing hands-o
 
 ## Units
 {% include unit-list.html %}
+
+## Submissions
+- [Development Team Project: Project Report](../../artefacts/module-3/project-report.pdf)
+- [Development Individual Project: Presentation](../../artefacts/module-3/presentation.pdf)
+- [End of Module Assignment: e-Portfolio Submission](../../artefacts/module-3/eportfolio-reflective.pdf)
