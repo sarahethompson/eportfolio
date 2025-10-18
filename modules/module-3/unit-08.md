@@ -15,8 +15,24 @@ summary: Last week, we learned about the structure of human neuron and how that 
 [Notes on Neural Networks](../../artefacts/module-3/unit-7-notes-on-neural-networks.md)
 
 ## Readings
-- Author (Year). *Book/Article title*. Publisher.
+- **Deep Learning: Foundations and Concepts**  
+  *Bishop, C. and Bishop, H. (2024)*  
+  *Chapter 18: Model Evaluation and Hyperparameter Tuning*  
+
+- **10 Business Applications of Neural Network (With Examples!)**  
+  *Pruciak, M. (2021)*  
+
+- **Robo-writers: The Rise and Risks of Language-generating AI**  
+  *Hutson, M. (2021)*  
+
+- **10 Business Applications of Neural Network**  
+  *Mach, P. (2021)*  
+
+- **Snapshot Paper – AI and Personal Insurance**  
+  *Centre for Data Ethics and Innovation (CDEI, 2019)*  
+
+- **Explained: Updating Weights with Gradient Descent & Backpropagation**  
+  *Mayo, M. (2017)*  
 
 ## Artefacts
-- [Gradient Cost Function (view on nbviewer)](https://nbviewer.org/github/sarahethompson/eportfolio/blob/main/artefacts/module-3/unit-8-gradient-cost-function.ipynb)
-- [Collaborative Discussion 2: Legal and Ethical Views on ANN Applications (view on nbviewer)](../../artefacts/module-3/unit-8-collab-discussion-initial.md)
+- [Gradient Cost Function](../..artefacts/module-3/unit-8-gradient-cost-function.ipynb)
