@@ -1,7 +1,7 @@
 name: Build Jekyll site
 on:
   push:
-    branches: ["main"]
+    branches: ["module-3-machine-learning"]
 permissions:
   contents: read
   pages: write

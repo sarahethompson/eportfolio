@@ -1,3 +1,5 @@
+[← Back to Unit 1](../../modules/module-3/unit-01.md)
+
 ## Reflection on ‘Think Python’
 
 Working through *Think Python* (Downey, 2015) gave me an opportunity to revisit the fundamentals of programming through a structured and gradual learning approach. Although I already use Python occasionally in my job, revisiting the basics helped reinforce my understanding of core concepts such as classes, inheritance and types like dictionaries. I particularly appreciated the book’s step-by-step progression and its focus on building problem-solving skills incrementally, through short exercises that introduced topics like recursion and object-oriented thinking in a very approachable way.

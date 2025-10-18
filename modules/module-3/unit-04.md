@@ -14,7 +14,7 @@ This unit covers applying linear regression in Scikit-Learn to model both simple
 - How to evaluate the effectiveness of your model.
 
 ## Notes
-[Study Notes](../../artefacts/module-3/unit-4-linear-regression.pdf)
+[Study Notes](../../artefacts/module-3/unit-4-linear-regression.md)
 
 ## Readings
 - **Deep Learning: Foundations and Concepts**
@@ -29,5 +29,5 @@ scikit-learn (no date)
 Jason Brownlee (2018)
 
 ## Artefacts
-- [Linear Regression with Scikit Learn](../../artefacts/module-3/unit-4-correlation-regression.ipynb)
+- <a href="../../artefacts/module-3/html/unit-4-correlation-regression.html" target="_blank" rel="noopener noreferrer">Linear Regression with Scikit Learn (HTML view)</a>
 - [Team Update](../../artefacts/module-3/unit-4-meeting-notes.pdf)

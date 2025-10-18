@@ -1,3 +1,5 @@
+[← Back to Unit 10](../../modules/module-3/unit-10.md)
+
 # Discussion: Large Language Models – Productivity, Ethics, and Oversight  
 *Module: Machine Learning (July 2025 B)*  
 *Sarah Thompson – October 2025*  
@@ -32,7 +34,7 @@ Suggested a three-step approach for responsible AI use: link tool use to task im
 Agreed on the benefits of LLMs but emphasised bias, toxicity, and the importance of human oversight in mitigating harm.  
 
 **Jordan Speight (30 Sept 2025)**  
-Expanded on Tasnika’s point by discussing *automation bias*—the tendency to over-trust AI—and suggested training and “red flag” protocols to strengthen critical thinking (Romeo and Conti, 2025).  
+Expanded on Tasnika’s point by discussing *automation bias* - the tendency to over-trust AI - and suggested training and “red flag” protocols to strengthen critical thinking (Romeo and Conti, 2025).  
 
 ---
 
@@ -69,7 +71,7 @@ This discussion looked at both the advantages and risks of large language models
 
 From the replies, three main ideas stood out. Abdulrahman proposed clearer task boundaries and verification practices (Meta, 2024; OpenAI, 2023). Tasnika highlighted the role of human oversight, and Jordan pointed out that oversight alone is not enough without user training to question AI outputs (Romeo and Conti, 2025).  
 
-In later discussions, I agreed with Lauretta and Eslam that AI writers should act as collaborators rather than replacements. Achieving this balance depends on AI literacy—understanding how these systems work, where they can fail, and how to use them responsibly (Ng et al., 2021).  
+In later discussions, I agreed with Lauretta and Eslam that AI writers should act as collaborators rather than replacements. Achieving this balance depends on AI literacy, understanding how these systems work, where they can fail, and how to use them responsibly (Ng et al., 2021).  
 
 Overall, the consensus was that while AI can greatly enhance writing productivity, it must be guided by human judgement, transparency, and ethical awareness.  
 
@@ -77,7 +79,7 @@ Overall, the consensus was that while AI can greatly enhance writing productivit
 
 ## Reflection  
 
-This discussion helped me connect theoretical ideas about AI ethics to practical applications. It reinforced how essential AI literacy is in managing risks such as bias, over-reliance, and homogenisation. I also realised that effective oversight isn’t just about inserting humans into the loop—it requires critical thinking, self-awareness, and clear governance. Moving forward, I plan to apply these lessons in both academic work and professional contexts, focusing on designing transparent and responsible AI-supported processes.
+This discussion helped me connect theoretical ideas about AI ethics to practical applications. It reinforced how essential AI literacy is in managing risks such as bias, over-reliance, and homogenisation. I also realised that effective oversight isn’t just about inserting humans into the loop, it requires critical thinking, self-awareness, and clear governance. Moving forward, I plan to apply these lessons in both academic work and professional contexts, focusing on designing transparent and responsible AI-supported processes.
 
 ---
 

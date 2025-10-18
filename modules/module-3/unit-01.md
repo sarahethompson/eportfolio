@@ -5,6 +5,7 @@ order: 1
 
 [← Back to Module 3](./)
 
+
 ## Summary
 Machine Learning uses real-time big data to power everyday decision-making and profiling, enabling machines to act more accurately and autonomously.
 

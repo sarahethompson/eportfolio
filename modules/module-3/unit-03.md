@@ -14,7 +14,7 @@ Correlation measures the strength and type of a relationship between variables, 
 - Their application with examples.
 
 ## Notes
-[Study Notes](../../artefacts/module-3/unit-04-corr-reg.md)
+[Study Notes](../../artefacts/module-3/unit-4-corr-reg.md)
 
 ## Readings
 - **Deep Learning: Foundations and Concepts**  
@@ -26,7 +26,7 @@ Correlation measures the strength and type of a relationship between variables, 
   *Chapter 6: Bayesian Regression Models*  
 
 ## Artefacts
-- [Covariance Pearson](../../artefacts/module-3/unit-3-covariance-pearson.ipynb)
-- [Linear Regression](../../artefacts/module-3/unit-3-linear-regression.ipynb)
-- [Multiple Linear Regression](../../artefacts/module-3/unit-3-multiple-linear-regression.ipynb)
-- [Polynomial Regression](../../artefacts/module-3/unit-3-polynomial-regression.ipynb)
+- <a href="../../artefacts/module-3/html/unit-3-covariance-pearson.html" target="_blank" rel="noopener noreferrer">Covariance Pearson (HTML view)</a>
+- <a href="../../artefacts/module-3/html/unit-3-linear-regression.html" target="_blank" rel="noopener noreferrer">Linear Regression (HTML view)</a>
+- <a href="../../artefacts/module-3/html/unit-3-multiple-linear-regression.html" target="_blank" rel="noopener noreferrer">Multiple Linear Regression (HTML view)</a>
+- <a href="../../artefacts/module-3/html/unit-3-polynomial-regression.html" target="_blank" rel="noopener noreferrer">Polynomial Regression (HTML view)</a>

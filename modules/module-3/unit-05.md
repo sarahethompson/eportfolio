@@ -31,4 +31,5 @@ Cluster analysis groups similar objects into clusters and is a key exploratory d
   Thinsungnoen, T. et al. (2015)
 
 ## Artefacts
-- [Jaccard Coefficient Calculations](../../artefacts/module-3/unit-5-Jaccard_Coefficient_Calculations_updated.ipynb)
+- <a href="../../artefacts/module-3/html/unit-5-Jaccard_Coefficient_Calculations_updated.html" target="_blank" rel="noopener noreferrer">Jaccard Coefficient Calculations (HTML view)</a>
+- [Team Update](../../artefacts/module-3/unit-6-meeting-notes.pdf)

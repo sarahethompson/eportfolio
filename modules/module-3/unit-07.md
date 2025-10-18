@@ -6,7 +6,7 @@ order: 6
 [← Back to Module 3](./)
 
 ## Summary
-Artificial Neural Network (ANN) is a biology inspired algorithm that, like animal brain, can learn from the environment and adapt itself to make more correct decisions. At present, ANN and its variant algorithm is used widely in different areas of our lives, from marketing to automation. ANN is a key driver for the industry 4.0 revolution, where machines are making decisions with minimal or no human interactions.
+Artificial Neural Network (ANN) is a biology inspired algorithm that, like an animal brain, can learn from the environment and adapt itself to make more correct decisions. At present, ANN and its variant algorithm is used widely in different areas of our lives, from marketing to automation. ANN is a key driver for the industry 4.0 revolution, where machines are making decisions with minimal or no human interactions.
 
 ## Key topics
 - The analogy between biological neuron and artificial neuron network.
@@ -39,6 +39,6 @@ Artificial Neural Network (ANN) is a biology inspired algorithm that, like anima
 ## Artefacts
 
 ### Perceptron Activities
-- [Simple Perceptron](../../artefacts/module-3/unit-7-simple-perceptron.ipynb)
-- [Perceptron AND Operator](../../artefacts/module-3/unit-7-perceptron-and-operator.ipynb)
-- [Multi-layer Perceptron](../../artefacts/module-3/unit-7-ml-perceptron.ipynb)
+- <a href="../../artefacts/module-3/html/unit-7-simple-perceptron.html" target="_blank" rel="noopener noreferrer">Simple Perceptron (HTML view)</a>
+- <a href="../../artefacts/module-3/html/unit-7-perceptron-and-operator.html" target="_blank" rel="noopener noreferrer">Perceptron AND Operator (HTML view)</a>
+- <a href="../../artefacts/module-3/html/unit-7-ml-perceptron.html" target="_blank" rel="noopener noreferrer">Multi-layer Perceptron (HTML view)</a>
