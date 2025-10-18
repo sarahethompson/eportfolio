@@ -1,10 +1,12 @@
 ---
 title: Unit 9 Introduction to Convolutional Neural Networks
 order: 8
-summary: Deep learning has revolutionised artificial intelligence by enabling highly complex pattern recognition across different domains, from image processing to natural language understanding. This week, we will build upon traditional Convolutional Neural Networks (CNNs) and explore more advanced architectures.
 ---
 
 [← Back to Module 3](./)
+
+## Summary
+Deep learning has revolutionised artificial intelligence by enabling highly complex pattern recognition across different domains, from image processing to natural language understanding. This week, we will build upon traditional Convolutional Neural Networks (CNNs) and explore more advanced architectures.
 
 ## Key topics
 - The algorithm underpinning CNN in detail.
