@@ -15,11 +15,28 @@ summary: Artificial Neural Network (ANN) is a biology inspired algorithm that, l
 [Notes on Neural Networks](../../artefacts/module-3/unit-7-notes-on-neural-networks.md)
 
 ## Readings
-- Author (Year). *Book/Article title*. Publisher.
+- **Deep Learning: Foundations and Concepts**  
+  *Bishop, C. and Bishop, H. (2024)*  
+  *Chapter 15: Training Deep Networks*  
+
+- **Applied Causal Inference Powered by ML and AI**  
+  *Chernozhukov, V., Hansen, C. and Spindler, M. (2024)*  
+  *Chapter 7: Applications in Economics and Social Sciences*  
+
+- **Deep Learning**  
+  *Goodfellow, I., Bengio, Y. and Courville, A. (2016)*  
+  *Chapter 8: Optimization for Training Deep Models*  
+
+- **Artificial Intelligence and Business Models in the Sustainable Development Goals Perspective: A Systematic Literature Review**  
+  *Vaio, A.D. et al. (2020)*  
+  *Journal of Business Research, 121, pp. 283–314*  
+
+- **Understanding Activation Functions in Neural Networks**  
+  *Sharma, A. (2017)*  
 
 ## Artefacts
 
 ### Perceptron Activities
-- [Simple Perceptron (view on nbviewer)](https://nbviewer.org/github/sarahethompson/eportfolio/blob/main/artefacts/module-3/unit-7-simple-perceptron.ipynb)
-- [Perceptron AND Operator (view on nbviewer)](https://nbviewer.org/github/sarahethompson/eportfolio/blob/main/artefacts/module-3/unit-7-perceptron-and-operator.ipynb)
-- [Multi-layer Perceptron (view on nbviewer)](https://nbviewer.org/github/sarahethompson/eportfolio/blob/fb5db3d9d76c34c1881bac19de25e197ffd028e5/artefacts/module-3/unit-7-ml-perceptron.ipynb)
+- [Simple Perceptron](../../artefacts/module-3/unit-7-simple-perceptron.ipynb)
+- [Perceptron AND Operator](../../artefacts/module-3/unit-7-perceptron-and-operator.ipynb)
+- [Multi-layer Perceptron](../../artefacts/module-3/unit-7-ml-perceptron.ipynb)
