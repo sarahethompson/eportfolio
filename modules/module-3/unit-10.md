@@ -1,10 +1,12 @@
 ---
 title: Unit 10 CNN Tutorial
 order: 9
-summary: Understand the applicability and challenges associated with different datasets for the use of machine learning algorithms.
 ---
 
 [← Back to Module 3](./)
+
+## Summary
+Understand the applicability and challenges associated with different datasets for the use of machine learning algorithms.
 
 ## Key topics
 - Read about CNN and watch the video tutorial (details provided in this week’s reading).
