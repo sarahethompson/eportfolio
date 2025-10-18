@@ -24,7 +24,7 @@ summary: Correlation measures the strength and type of a relationship between va
   *Chapter 6: Bayesian Regression Models*  
 
 ## Artefacts
-- [Covariance Pearson](../../artefacts/module-3/unit-03-covariance-pearson.ipynb)
-- [Linear Regression](../../artefacts/module-3/unit-03-linear-regression.ipynb)
+- [Covariance Pearson](../../artefacts/module-3/unit-3-covariance-pearson.ipynb)
+- [Linear Regression](../../artefacts/module-3/unit-3-linear-regression.ipynb)
 - [Multiple Linear Regression](../../artefacts/module-3/unit-03-multiple-linear-regression.ipynb)
 - [Polynomial Regression](../../artefacts/module-3/unit-03-polynomial-regression.ipynb)
