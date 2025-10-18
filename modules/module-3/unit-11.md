@@ -1,10 +1,12 @@
 ---
 title: Unit 11 Model Selection and Evaluation
 order: 10
-summary: This unit expands on model selection, evaluation, and deployment, which are critical processes in the machine learning (ML) workflow. Selecting the correct model is akin to choosing the right tool for a given prediction or classification task. However, evaluating and monitoring model performance ensures reliability and effectiveness in real-world applications. Additionally, this unit introduces MLOps (Machine Learning Operations), an essential framework for maintaining and deploying models in production environments. We will examine how automated model monitoring, retraining, and deployment pipelines enhance the robustness of ML systems.
 ---
 
 [← Back to Module 3](./)
+
+## Summary
+This unit expands on model selection, evaluation, and deployment, which are critical processes in the machine learning (ML) workflow. Selecting the correct model is akin to choosing the right tool for a given prediction or classification task. However, evaluating and monitoring model performance ensures reliability and effectiveness in real-world applications. Additionally, this unit introduces MLOps (Machine Learning Operations), an essential framework for maintaining and deploying models in production environments. We will examine how automated model monitoring, retraining, and deployment pipelines enhance the robustness of ML systems.
 
 ## Key topics
 - The workflow of model selection, evaluation, and deployment.
