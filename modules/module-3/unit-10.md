@@ -28,4 +28,4 @@ summary: Understand the applicability and challenges associated with different d
   Wang, J. et al. (2021)
 
 ## Artefacts
-- [Collaborative Discussion](../../artefacts/module-3/collab-discussion-2.pdf)
+- [Collaborative Discussion](../../artefacts/module-3/collaborative-discussion-2.md)
