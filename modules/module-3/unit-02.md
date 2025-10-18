@@ -16,13 +16,13 @@ summary: Exploratory Data Analysis (EDA) validates and cleans raw data, uncovers
 [Study Notes](../../artefacts/module-3/unit-2-study-notes.md)
 
 ## Readings
-Deep Learning: Foundations and Concepts  
+- **Deep Learning: Foundations and Concepts**
 Bishop, C. and Bishop, H. (2024)
 
-Applied Causal Inference Powered by ML and AI  
+- **Applied Causal Inference Powered by ML and AI**
 Chernozhukov, V., Hansen, C. and Spindler, M. (2024)
 
-Pattern Recognition and Machine Learning  
+- **Pattern Recognition and Machine Learning**
 Christopher M. Bishop (2006)
 
 ## Artefacts
