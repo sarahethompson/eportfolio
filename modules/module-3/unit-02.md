@@ -19,4 +19,4 @@ Your study notes here.
 - Author (Year). *Book/Article title*. Publisher.
 
 ## Artefacts
-- [EDA](../../artefacts/module-3/unit-02-eda-tutorial-notebook.ipynb)
+- [EDA Tutorial](../../artefacts/module-3/unit-2-Tutorial_on_Exploratory_Data_Analysis.ipynb)
