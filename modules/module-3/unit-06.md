@@ -1,10 +1,12 @@
 ---
 title: Unit 6 Clustering with Python
 order: 6
-summary: Apply clustering (K-means only) on real life data using the Python libraries in scikit-learn.
 ---
 
 [← Back to Module 3](./)
+
+## Summary
+Apply clustering (K-means only) on real life data using the Python libraries in scikit-learn.
 
 ## Key topics
 - The functionalities of Python libraries used in the K-Means clustering algorithm.
