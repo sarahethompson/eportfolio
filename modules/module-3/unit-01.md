@@ -18,5 +18,5 @@ Your study notes here.
 - Author (Year). *Book/Article title*. Publisher.
 
 ## Artefacts
-- [Collaborative Discussion](../../artefacts/module-3/unit-01-collab-discussion-1.pdf)
-- [Think Python](../../artefacts/module-3/unit-01-python.ipynb)
+- [GitHub Copilot](../../artefacts/module-3/ReflectionsGitHubCopilot.pdf)
+- [Think Python](../../artefacts/module-3/ReflectionsThinkPython.pdf)
