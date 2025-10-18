@@ -34,5 +34,5 @@ summary: Machine Learning uses real-time big data to power everyday decision-mak
 
 
 ## Artefacts
-- [GitHub Copilot](../../artefacts/module-3/unit-1-ReflectionsGitHubCopilot.md)
-- [Think Python](../../artefacts/module-3unit-1-ReflectionsThinkPython.md)
+- [GitHub Copilot](../../artefacts/module-3/unit-1-ReflectionsGithubCopilot.md)
+- [Think Python](../../artefacts/module-3/unit-1-ReflectionsThinkPython.md)
