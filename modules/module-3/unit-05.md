@@ -1,10 +1,12 @@
 ---
 title: Unit 5 Clustering
 order: 5
-summary: Cluster analysis groups similar objects into clusters and is a key exploratory data analysis technique widely used across fields like pattern recognition, image analysis, and machine learning.
 ---
 
 [← Back to Module 3](./)
+
+## Summary
+Cluster analysis groups similar objects into clusters and is a key exploratory data analysis technique widely used across fields like pattern recognition, image analysis, and machine learning.
 
 ## Key topics
 - Basic idea behind clustering.
