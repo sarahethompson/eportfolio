@@ -29,4 +29,4 @@ summary: This unit expands on model selection, evaluation, and deployment, which
   Jordan, J. (2017)
 
 ## Artefacts
-- [Model Performance and Measurment](../../artefacts/module-3/unit-11-model-performance-measurement.ipnyb)
+- [Model Performance and Measurment](../../artefacts/module-3/unit-11-model-performance-measurement.ipynb)
