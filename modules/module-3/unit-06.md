@@ -10,11 +10,20 @@ summary: Apply clustering (K-means only) on real life data using the Python libr
 - The functionalities of Python libraries used in the K-Means clustering algorithm.
 - Role of clustering algorithms in answering some interesting questions based on a dataset.
 
-## Notes
-Your study notes here.
-
 ## Readings
-- Author (Year). *Book/Article title*. Publisher.
+- **Deep Learning: Foundations and Concepts**  
+  Bishop, C. and Bishop, H. (2024)  
+  Cambridge University Press, UK  
+  Chapter 8: Introduction to Deep Neural Networks
+
+- **Deep Learning**  
+  Goodfellow, I., Bengio, Y. and Courville, A. (2016)  
+  MIT Press, Cambridge, MA  
+  Chapter 6: Deep Feedforward Networks
+
+- **Sklearn.cluster.KMeans**  
+  scikit-learn (no date)
 
 ## Artefacts
-- [K–Means Clustering Tutorial - Iris (view on nbviewer)](https://nbviewer.org/github/sarahethompson/eportfolio/blob/main/artefacts/module-3/unit-6-iris.ipynb) 
+- [K–Means Clustering Tutorial - Iris](../../artefacts/module-3/unit-6-iris.ipynb)
+- [Team Update](../../artefacts/module-3/unit-6-team-update.ipynb)
