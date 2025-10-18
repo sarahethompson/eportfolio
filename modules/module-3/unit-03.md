@@ -12,10 +12,19 @@ summary: Correlation measures the strength and type of a relationship between va
 - Their application with examples.
 
 ## Notes
-Your study notes here.
+[Study Notes](../../artefacts/module-3/unit-04-corr-reg.md)
 
 ## Readings
-- Author (Year). *Book/Article title*. Publisher.
+- **Deep Learning: Foundations and Concepts**  
+  *Bishop, C. and Bishop, H. (2024)*  
+  *Chapter 4: Regression Models in Machine Learning*  
+
+- **Pattern Recognition and Machine Learning**  
+  *Christopher M. Bishop (2006)*  
+  *Chapter 6: Bayesian Regression Models*  
 
 ## Artefacts
-- [Correlation and Regression](../../artefacts/module-3/unit-03-corr-reg-activity-notebook.ipynb)
+- [Covariance Pearson](../../artefacts/module-3/unit-03-covariance-pearson.ipynb)
+- [Linear Regression](../../artefacts/module-3/unit-03-linear-regression.ipynb)
+- [Multiple Linear Regression](../../artefacts/module-3/unit-03-multiple-linear-regression.ipynb)
+- [Polynomial Regression](../../artefacts/module-3/unit-03-polynomial-regression.ipynb)
