@@ -12,11 +12,27 @@ summary: Machine Learning uses real-time big data to power everyday decision-mak
 - Interplay among big data analytics, machine learning and artificial intelligence.
 
 ## Notes
-Your study notes here.
+- [Study Notes](../../artefacts/module-3/unit-1-StudyNotes.md)
 
 ## Readings
-- Author (Year). *Book/Article title*. Publisher.
+- **Deep Learning: Foundations and Concepts**  
+  *Bishop, C. and Bishop, H. (2024)*  
+
+- **Pattern Recognition and Machine Learning**  
+  *Christopher M. Bishop (2006)*  
+  [https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/](https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/)
+
+- **Think Python (Third Edition)**  
+  *Allen Downey (2024)*  
+
+- **Industry 4.0 to Industry 5.0: Explorations in the Transition from a Techno-economic to a Socio-technical Future**  
+  *Gary Metcalf, Susu Nousala, and David Ing (2024)*  
+
+- **The Fourth Industrial Revolution: What It Means and How to Respond**  
+  *Klaus Schwab (2016)*  
+  [https://www.weforum.org/agenda/2016/01/the-fourth-industrial-revolution-what-it-means-and-how-to-respond/](https://www.weforum.org/agenda/2016/01/the-fourth-industrial-revolution-what-it-means-and-how-to-respond/)
+
 
 ## Artefacts
-- [GitHub Copilot](../../artefacts/module-3/ReflectionsGitHubCopilot.pdf)
-- [Think Python](../../artefacts/module-3/ReflectionsThinkPython.pdf)
+- [GitHub Copilot](../../artefacts/module-3/unit-1-ReflectionsGitHubCopilot.md)
+- [Think Python](../../artefacts/module-3/ReflectionsThinkPython.md)
