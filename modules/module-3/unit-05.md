@@ -13,11 +13,21 @@ summary: Cluster analysis groups similar objects into clusters and is a key expl
 - How to evaluate clusters.
 
 ## Notes
-Your study notes here.
+[Study Notes](../../artefacts/module-3/unit-5-clustering.md)
 
 ## Readings
-- Author (Year). *Book/Article title*. Publisher.
+- **Applied Causal Inference Powered by ML and AI**  
+  Chernozhukov, V., Hansen, C. and Spindler, M. (2024)  
+  Oxford University Press, UK  
+  Chapter 3: Structural Causal Models and DAGs
+
+- **An Analysis of Highly-Cited Scholarship in Business and Management Education: Findings and Future Agendas**  
+  Hwang, A. et al. (2021)  
+  The International Journal of Management Education, 19(1), pp. 1472–8117
+
+- **The Clustering Validity with Silhouette and Sum of Squared Errors**  
+  Thinsungnoen, T. et al. (2015)
 
 ## Artefacts
-- [Clustering](../../artefacts/module-3/unit-05-clustering.pdf)
-- [Jaccard Coefficient Calculations (view on nbviewer)](https://nbviewer.org/github/sarahethompson/eportfolio/blob/main/artefacts/module-3/unit-5-Jaccard_Coefficient_Calculations_updated.ipynb)
+- [Jaccard Coefficient Calculations](../../artefacts/module-3/unit-5-Jaccard_Coefficient_Calculations_updated.ipynb)
+- [Study Notes](../../artefacts/module-3/unit-5-clustering.md)
