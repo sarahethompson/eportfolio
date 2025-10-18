@@ -30,4 +30,3 @@ summary: Cluster analysis groups similar objects into clusters and is a key expl
 
 ## Artefacts
 - [Jaccard Coefficient Calculations](../../artefacts/module-3/unit-5-Jaccard_Coefficient_Calculations_updated.ipynb)
-- [Study Notes](../../artefacts/module-3/unit-5-clustering.md)
