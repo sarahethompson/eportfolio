@@ -28,4 +28,4 @@ Jason Brownlee (2018)
 
 ## Artefacts
 - [Linear Regression with Scikit Learn](../../artefacts/module-3/unit-4-correlation-regression.ipynb)
-- [Team Update](../../artefacts/module-3/unit-4-team-update.pdf)
+- [Team Update](../../artefacts/module-3/unit-4-meeting-notes.pdf)
