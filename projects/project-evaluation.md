@@ -80,10 +80,8 @@ These outcomes have strengthened my confidence in applying machine-learning meth
 
 ### Conclusion
 
-Evaluating these two projects side by side demonstrates a clear trajectory:  
-from applying existing algorithms collaboratively to designing and evaluating advanced models independently.  
-The Unit 6 team experience laid the groundwork in data handling, analysis, and teamwork;  
-the Unit 11 project consolidated that foundation, extending it into deep-learning experimentation and reflective scholarship.  
+Evaluating these two projects side by side demonstrates a clear trajectory, from applying existing algorithms collaboratively to designing and evaluating advanced models independently.  
+The Unit 6 team experience laid the groundwork in data handling, analysis, and teamwork, and the Unit 11 project consolidated that foundation, extending it into deep-learning.
 Together they mark a meaningful progression in both **technical competence** and **professional maturity**.
 
 ---
