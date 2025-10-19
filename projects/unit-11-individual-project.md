@@ -1,3 +1,5 @@
+[← Back to Module 3](./)
+
 # Unit 11 – Individual Project: Object Recognition with Convolutional Neural Networks (CNNs)
 
 This individual project explored **object recognition using deep learning**, comparing two approaches on the CIFAR-10 dataset:  
@@ -52,11 +54,12 @@ VGG16 achieved the highest metrics by leveraging pretrained features, confirming
 ## Reflection Notes
 
 This project consolidated my understanding of convolutional networks and deep learning best practices.  
+
 I learned how:
 - Validation sets, early stopping, and dropout prevent overfitting.  
 - Data augmentation increases model robustness.  
 - Transfer learning reduces training time and improves accuracy.  
 
-It also reinforced the importance of **ethical and sustainable AI** — ensuring fairness, transparency, and awareness of computational cost.
+It also reinforced the importance of **ethical and sustainable AI** - ensuring fairness, transparency, and awareness of computational cost.
 
 ---

@@ -20,7 +20,9 @@ This module explored supervised and unsupervised algorithms, model evaluation, a
 
 ## Project Work and Reflections
 Throughout this module, I developed both technical and critical understanding of machine learning by applying theory to progressively more complex projects.  
+
 The team-based Unit 6 project focused on structured data and traditional ML algorithms for price prediction and clustering, while the individual Unit 11 project explored image recognition using deep learning and transfer learning.  
+
 Together, these projects demonstrate my growth from collaborative model implementation to independent design, evaluation, and reflection on advanced AI techniques.
 
 - [Unit 6 Team Project – *Airbnb Price Prediction and Market Segmentation in New York City*](../../projects/unit-6-group-project.md)

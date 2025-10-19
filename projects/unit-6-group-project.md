@@ -1,7 +1,9 @@
+[← Back to Module 3](./)
+
 # Unit 6 – Team Project: Airbnb Price Prediction and Market Segmentation in New York City
 
 This team project applied machine-learning techniques to the **AB_NYC_2019 dataset** to analyse what drives Airbnb rental prices and how listings can be grouped into meaningful market segments.  
-Our aim was to identify the key predictors of nightly price and explore how **predictive modelling (regression, Random Forest)** and **unsupervised clustering** could together support Airbnb’s pricing and marketing strategy.
+Our aim was to identify the key predictors of nightly price and explore how **predictive modelling (linear regression, random forest)** and **unsupervised clustering** could together support Airbnb’s pricing and marketing strategy.
 
 The project developed essential teamwork, data-analysis, and communication skills, forming the foundation for the more advanced individual project completed in Unit 11.
 
@@ -78,7 +80,8 @@ Three of six team members (myself, Viktor, and Amaka) contributed actively throu
 The fourth joined late and participated minimally, which created additional pressure in the final week.  
 Despite this, the team functioned cooperatively, and communication remained positive and solution-oriented.
 
-The project achieved a **mark of 72 % (Merit)**.  
+The project achieved a mark of 72 % (Distinction).
+
 Feedback praised the clarity of the modelling pipeline, quality of visualisations, and practical relevance, noting that stronger critical analysis of model limitations and validation metrics (e.g., silhouette score) could further improve the work.
 
 ---
@@ -88,7 +91,7 @@ Feedback praised the clarity of the modelling pipeline, quality of visualisation
 This collaborative project enhanced my understanding of:
 - Balancing **interpretability** and **predictive power** in regression vs. ensemble models.
 - The value of **clustering** for translating technical findings into actionable business insight.
-- The importance of **leadership balance** — contributing strongly while empowering others.
+- The importance of **leadership balance** - contributing strongly while empowering others.
 
 These lessons informed my independent Unit 11 project, where I applied the same approach of preprocessing, validation, and reflective analysis to a deep-learning context.
 
