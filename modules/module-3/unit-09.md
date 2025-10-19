@@ -30,4 +30,4 @@ Deep learning has revolutionised artificial intelligence by enabling highly comp
   Wall, M. (2019)
 
 ## Artefacts
-- [CNN Model Activity](../../artefacts/module-3/unit-9-CNN-model-activity.ipynb)
+- <a href="../../artefacts/module-3/html/unit-9-CNN-model-activity.html" target="_blank" rel="noopener noreferrer">CNN Model Activity (HTML view)</a>

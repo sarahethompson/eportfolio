@@ -37,4 +37,4 @@ Last week, we learned about the structure of human neuron and how that influence
   *Mayo, M. (2017)*  
 
 ## Artefacts
-- [Gradient Cost Function](../..artefacts/module-3/unit-8-gradient-cost-function.ipynb)
+- <a href="../../artefacts/module-3/html/unit-8-gradient-cost-function.html" target="_blank" rel="noopener noreferrer">Gradient Cost Function (HTML view)</a>

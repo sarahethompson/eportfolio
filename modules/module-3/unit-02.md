@@ -28,5 +28,5 @@ Chernozhukov, V., Hansen, C. and Spindler, M. (2024)
 Christopher M. Bishop (2006)
 
 ## Artefacts
-- [EDA Tutorial](../../artefacts/module-3/unit-2-Tutorial_on_Exploratory_Data_Analysis.ipynb)
-- [EDA Auto MPG](../../artefacts/module-3/unit-2-auto-mpg.ipynb)
+- <a href="../../artefacts/module-3/html/unit-2-Tutorial_on_Exploratory_Data_Analysis.html" target="_blank" rel="noopener noreferrer">MEDA Tutorial (HTML view)</a>
+- <a href="../../artefacts/module-3/html/unit-2-auto-mpg.html" target="_blank" rel="noopener noreferrer">EDA Auto MPG (HTML view)</a>
