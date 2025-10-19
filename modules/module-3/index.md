@@ -24,10 +24,10 @@ The team-based Unit 6 project focused on structured data and traditional ML algo
 Together, these projects demonstrate my growth from collaborative model implementation to independent design, evaluation, and reflection on advanced AI techniques.
 
 - [Unit 6 Team Project – *Airbnb Price Prediction and Market Segmentation in New York City*](../../projects/unit-6-group-project.md)
-- [Unit 11 Individual Project – *Object Recognition with CNNs*](../../projects/unit-11-group-project.md)
+- [Unit 11 Individual Project – *Object Recognition with CNNs*](../../projects/unit-11-individual-project.md)
 - [Project Evaluation – Comparison of Team and Individual Projects](../../projects/project-evaluation.md)
 
 ## Submissions
-- [Development Team Project: Final Report (PDF)](../../artefacts/module-3/project-report.pdf)
-- [Development Individual Project: Presentation Slides (PDF)](../../artefacts/module-3/presentation.pdf)
-- [End of Module Assignment: e-Portfolio Submission (Reflective Piece, PDF)](../../artefacts/module-3/eportfolio-reflective.pdf)
+- [Development Team Project: Final Report (PDF)](../../projects/project-report.pdf)
+- [Development Individual Project: Presentation Slides (PDF)](../../projects/presentation.pdf)
+- [End of Module Assignment: e-Portfolio Submission (Reflective Piece, PDF)](../../projects/reflective-piece.pdf)

@@ -39,6 +39,6 @@ Artificial Neural Network (ANN) is a biology inspired algorithm that, like anima
 ## Artefacts
 
 ### Perceptron Activities
-- [Simple Perceptron](../../artefacts/module-3/unit-7-simple-perceptron.ipynb)
-- [Perceptron AND Operator](../../artefacts/module-3/unit-7-perceptron-and-operator.ipynb)
-- [Multi-layer Perceptron](../../artefacts/module-3/unit-7-ml-perceptron.ipynb)
+- <a href="../../artefacts/module-3/unit-7-simple-perceptron.html" target="_blank" rel="noopener noreferrer">Simple Perceptron (HTML view)</a>
+- <a href="../../artefacts/module-3/unit-7-perceptron-and-operator.html" target="_blank" rel="noopener noreferrer">Perceptron AND Operator (HTML view)</a>
+- <a href="../../artefacts/module-3/unit-7-ml-perceptron.html" target="_blank" rel="noopener noreferrer">Multi-layer Perceptron (HTML view)</a>
