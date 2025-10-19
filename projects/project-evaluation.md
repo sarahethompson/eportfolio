@@ -1,3 +1,5 @@
+[← Back to Module 3](./)
+
 # Project Evaluation – Comparing Unit 6 and Unit 11 Projects
 
 This section evaluates the transition from the **Unit 6 team project** (*Airbnb Price Prediction and Market Segmentation in New York City*) to the **Unit 11 individual project** (*Object Recognition with CNNs*).  
@@ -20,13 +22,9 @@ The Unit 6 project emphasised **collaborative application of classical ML**, whi
 
 ## 2. Modelling Approach and Learning Progression
 
-In Unit 6, our workflow used **Linear Regression**, **Random Forest**, and **K-Means Clustering**.  
-I implemented the Random Forest, supported the clustering analysis, and produced key visualisations.  
-These methods focused on **interpretability and market insight**, reinforcing my understanding of feature engineering, evaluation metrics, and the trade-off between transparency and accuracy.
+In Unit 6, our workflow used **linear regression**, **random forest**, and **k-means clustering**. I implemented the Random Forest, supported the clustering analysis, and produced key visualisations. These methods focused on **interpretability and market insight**, reinforcing my understanding of feature engineering, evaluation metrics, and the trade-off between transparency and accuracy.
 
-By contrast, Unit 11 demanded **end-to-end model design and training** on high-dimensional data.  
-Building CNNs and applying transfer learning deepened my knowledge of **representation learning, overfitting control (dropout, early stopping)**, and **performance diagnostics**.  
-The experience moved me from feature-based modelling to automated feature extraction — a conceptual leap that clarified how data structure shapes model choice.
+By contrast, Unit 11 demanded **end-to-end model design and training** on high-dimensional data. Building CNNs and applying transfer learning deepened my knowledge of **representation learning, overfitting control (dropout, early stopping)**, and **performance diagnostics**. The experience moved me from feature-based modelling to automated feature extraction - a conceptual leap that clarified how data structure shapes model choice.
 
 ---
 
@@ -81,6 +79,7 @@ These outcomes have strengthened my confidence in applying machine-learning meth
 ### Conclusion
 
 Evaluating these two projects side by side demonstrates a clear trajectory, from applying existing algorithms collaboratively to designing and evaluating advanced models independently.  
+
 The Unit 6 team experience laid the groundwork in data handling, analysis, and teamwork, and the Unit 11 project consolidated that foundation, extending it into deep-learning.
 Together they mark a meaningful progression in both **technical competence** and **professional maturity**.
 
@@ -89,4 +88,4 @@ Together they mark a meaningful progression in both **technical competence** and
 ## Artefacts
 
 - 📄 [Unit 6 Team Project – *Airbnb Price Prediction and Segmentation in New York City*](unit-6-group-project.md)
-- 📄 [Unit 11 Individual Project – *Object Recognition with CNNs*](unit-11-group-project.md)
+- 📄 [Unit 11 Individual Project – *Object Recognition with CNNs*](unit-11-individual-project.md)

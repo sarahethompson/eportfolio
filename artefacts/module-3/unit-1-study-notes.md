@@ -1,4 +1,6 @@
-# Unit 1 Lecturecast Study Notes – Introduction to Machine Learning
+[← Back to Unit 1](./)
+
+# Unit 1 Study Notes – Introduction to Machine Learning
 
 ## 1. What is Machine Learning?
 - Machine Learning (ML) automates automation — computers program themselves from data.
@@ -41,14 +43,3 @@
 - ML can infer traits (openness, conscientiousness, extraversion, agreeableness, neuroticism).
 - Regulation often lags behind digital innovation, creating ethical and privacy risks.
 - Big data fuels ML; ML drives AI — shaping how society and individuals are understood.
-
----
-
-## Summary
-| Theme | Key Insight |
-|-------|--------------|
-| ML Definition | Computers learn patterns from data autonomously. |
-| Core Applications | Spam detection, self-driving cars, digital profiling. |
-| Enablers | Big data, IoT, cloud, automation. |
-| Impact | Reshapes jobs, creativity, and human behaviour. |
-| Challenge | Ethics, bias, and transparency remain critical. |
