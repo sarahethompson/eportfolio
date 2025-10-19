@@ -27,5 +27,5 @@ Apply clustering (K-means only) on real life data using the Python libraries in 
   scikit-learn (no date)
 
 ## Artefacts
-- [K–Means Clustering Tutorial - Iris](../../artefacts/module-3/unit-6-iris.ipynb)
-- [Team Update](../../artefacts/module-3/unit-6-meeting-notes.pdf)
+- <a href="../../artefacts/module-3/html/unit-6-iris.html" target="_blank" rel="noopener noreferrer">K–Means Clustering Tutorial - Iris (HTML view)</a>
+- [Group Project Report](../../projects/project-report.pdf)

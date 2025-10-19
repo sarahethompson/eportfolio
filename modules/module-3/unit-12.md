@@ -46,4 +46,4 @@ The so-called “smartization” of industries, often referred to as Industry 4.
   OpenAI (2021)
 
 ## Artefacts
-- [e-Portfolio Reflective Piece ](../../artefacts/module-3/unit-12-eportfolio-reflective.pdf)
+- [e-Portfolio Reflective Piece ](../../projects/reflective-piece.pdf)
