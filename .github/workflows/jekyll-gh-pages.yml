@@ -1,19 +1,75 @@
-name: Build Jekyll site
+name: Deploy Al-Folio site to GitHub Pages
+
 on:
   push:
-    branches: ["module-3-machine-learning"]
+    branches:
+      - module-3-machine-learning
+      - main
+    paths:
+      - "assets/**"
+      - "_sass/**"
+      - "_layouts/**"
+      - "_includes/**"
+      - "_modules/**"
+      - "_projects/**"
+      - "_pages/**"
+      - "_plugins/**"
+      - "**.html"
+      - "**.liquid"
+      - "**/*.md"
+      - "**.yml"
+      - "Gemfile"
+      - "Gemfile.lock"
+  workflow_dispatch:
+
 permissions:
   contents: read
   pages: write
   id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/configure-pages@v5
-      - uses: actions/jekyll-build-pages@v1
-      - uses: actions/upload-pages-artifact@v3
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+          pip3 install --upgrade nbconvert
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build site
+        run: |
+          export JEKYLL_ENV=production
+          bundle exec jekyll build --trace
+        env:
+          JEKYLL_ENV: production
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
   deploy:
     needs: build
     runs-on: ubuntu-latest

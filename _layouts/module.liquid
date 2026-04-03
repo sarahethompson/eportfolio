@@ -1,0 +1,95 @@
+---
+layout: default
+---
+
+<div class="post">
+  <header class="post-header">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb bg-transparent p-0 mb-2">
+        <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li class="breadcrumb-item"><a href="{{ '/modules/' | relative_url }}">Modules</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+      </ol>
+    </nav>
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+    {% if page.category %}
+      <span class="badge badge-pill badge-{{ page.category | replace: 'completed', 'success' | replace: 'in-progress', 'primary' }}">
+        {{ page.category | replace: '-', ' ' | capitalize }}
+      </span>
+    {% endif %}
+  </header>
+
+  <article>
+    {{ content }}
+
+    {% comment %} Auto-generate study notes for this module {% endcomment %}
+    {% if page.show_notes != false %}
+      {% assign module_path = page.path | remove: 'index.md' | remove: '_modules/' %}
+      {% assign module_notes = site.modules | where_exp: "item", "item.path contains module_path" | where_exp: "item", "item.path contains '/notes/'" | sort: "title" %}
+
+      {% if module_notes.size > 0 %}
+        <h2 id="study-notes">Study Notes</h2>
+        <div class="units-list">
+          {% for note in module_notes %}
+            {% if note.published != false %}
+              <div class="unit-card mb-3 p-3 border rounded">
+                <h4 class="mb-1">
+                  <a href="{{ note.url | relative_url }}">{{ note.title }}</a>
+                </h4>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endif %}
+
+    {% comment %} Auto-generate list of units in this module {% endcomment %}
+    {% if page.show_units != false %}
+      {% assign module_path = page.path | remove: 'index.md' | remove: '_modules/' %}
+      {% assign module_units = site.modules | where_exp: "item", "item.path contains module_path" | where_exp: "item", "item.name != 'index.md'" | sort: "order" %}
+
+      {% if module_units.size > 0 %}
+        <h2>Units</h2>
+        <div class="units-list">
+          {% for unit in module_units %}
+            {% if unit.published != false %}
+              {% unless unit.path contains '/notes/' %}
+              <div class="unit-card mb-3 p-3 border rounded">
+                <h4 class="mb-1">
+                  <a href="{{ unit.url | relative_url }}">{{ unit.title }}</a>
+                </h4>
+                {% if unit.summary %}
+                  <p class="text-muted mb-0"><small>{{ unit.summary }}</small></p>
+                {% endif %}
+              </div>
+              {% endunless %}
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endif %}
+  </article>
+</div>
+
+<style>
+.units-list .unit-card {
+  transition: all 0.2s ease-in-out;
+}
+
+.units-list .unit-card:hover {
+  border-color: var(--global-theme-color) !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.units-list .unit-card h4 a {
+  color: var(--global-text-color);
+  text-decoration: none;
+}
+
+.units-list .unit-card h4 a:hover {
+  color: var(--global-theme-color);
+}
+</style>

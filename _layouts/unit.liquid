@@ -1,0 +1,123 @@
+---
+layout: default
+---
+
+<div class="post">
+  <header class="post-header">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb bg-transparent p-0 mb-2">
+        <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li class="breadcrumb-item"><a href="{{ '/modules/' | relative_url }}">Modules</a></li>
+        {% if page.module and page.module_title %}
+          <li class="breadcrumb-item"><a href="{{ '/modules/' | append: page.module | append: '/' | relative_url }}">{{ page.module_title }}</a></li>
+        {% endif %}
+        <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+      </ol>
+    </nav>
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.summary %}
+      <p class="post-description">{{ page.summary }}</p>
+    {% endif %}
+  </header>
+
+  <article>
+    {{ content }}
+  </article>
+
+  {% comment %} Previous/Next Unit Navigation {% endcomment %}
+  {% if page.module %}
+    {% assign module_path = '_modules/' | append: page.module | append: '/' %}
+    {% assign module_units = site.modules | where_exp: "item", "item.path contains module_path" | where_exp: "item", "item.name != 'index.md'" | sort: "order" %}
+
+    {% assign current_index = nil %}
+    {% for unit in module_units %}
+      {% if unit.url == page.url %}
+        {% assign current_index = forloop.index0 %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
+    {% if current_index %}
+      <div class="unit-navigation d-flex justify-content-between mt-5 pt-4 border-top">
+        <div class="prev-unit">
+          {% if current_index > 0 %}
+            {% assign prev_index = current_index | minus: 1 %}
+            {% assign prev_unit = module_units[prev_index] %}
+            <a href="{{ prev_unit.url | relative_url }}" class="btn btn-outline-primary">
+              <i class="fas fa-arrow-left"></i> Previous: {{ prev_unit.title }}
+            </a>
+          {% else %}
+            <span class="text-muted">← First Unit</span>
+          {% endif %}
+        </div>
+        <div class="next-unit text-right">
+          {% assign next_index = current_index | plus: 1 %}
+          {% if next_index < module_units.size %}
+            {% assign next_unit = module_units[next_index] %}
+            <a href="{{ next_unit.url | relative_url }}" class="btn btn-outline-primary">
+              Next: {{ next_unit.title }} <i class="fas fa-arrow-right"></i>
+            </a>
+          {% else %}
+            <span class="text-muted">Last Unit →</span>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+  {% endif %}
+</div>
+
+<style>
+.unit-navigation {
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.unit-navigation .prev-unit,
+.unit-navigation .next-unit {
+  flex: 1;
+  min-width: 200px;
+}
+
+.unit-navigation .btn {
+  white-space: normal;
+  text-align: left;
+}
+
+.unit-navigation .next-unit .btn {
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .unit-navigation {
+    flex-direction: column;
+  }
+
+  .unit-navigation .next-unit .btn {
+    text-align: left;
+  }
+}
+
+/* Artefacts section styling */
+article h2:contains("Artefacts") + ul,
+article h2:contains("Artefacts") + p + ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+article h2:contains("Artefacts") + ul li::before,
+article h2:contains("Artefacts") + p + ul li::before {
+  content: "📄 ";
+  margin-right: 0.5rem;
+}
+
+/* Readings section styling */
+article h2:contains("Readings") + ul li {
+  margin-bottom: 1rem;
+}
+
+/* Notes section styling */
+article h2:contains("Notes") + ul li::before {
+  content: "📝 ";
+  margin-right: 0.5rem;
+}
+</style>
