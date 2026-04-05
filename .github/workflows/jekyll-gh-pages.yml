@@ -1,7 +1,7 @@
 name: Build Jekyll site
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "claude/modernize-eportfolio-theme-FKR75"]
 permissions:
   contents: read
   pages: write
