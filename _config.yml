@@ -107,7 +107,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages", "_modules"]
+include: ["_pages"]
 exclude:
   - bin/
   - Dockerfile

@@ -5,6 +5,7 @@ permalink: /modules/intelligent-agents/
 description: "Exploring autonomous agents, multi-agent systems, rational behavior, and agent-based modeling in AI"
 importance: 2
 category: in-progress
+show_notes: false
 ---
 
 ## Overview
@@ -27,6 +28,9 @@ This module explores the fundamental concepts of intelligent agents - software e
 
 ## Project Work
 *Projects and assignments will be added as the module progresses.*
+
+## Study Notes
+- [Open the Intelligent Agents Study Notes hub]({{ site.baseurl }}/modules/intelligent-agents/notes/README/)
 
 ## Submissions
 *Submission links will be added upon completion.*
