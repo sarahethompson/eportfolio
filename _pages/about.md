@@ -6,7 +6,6 @@ subtitle: Master's in Artificial Intelligence Student
 
 profile:
   align: right
-  image: # prof_pic.jpg - Add your profile picture if desired
   image_circular: false
   more_info: >
     <p>Master's in AI</p>
