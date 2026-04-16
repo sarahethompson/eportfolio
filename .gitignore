@@ -1,0 +1,9 @@
+_site/
+vendor/
+.idea/
+.DS_Store
+*.backup
+*.swp
+*~
+_config.yml.alfolio-original
+_config.yml.backup
