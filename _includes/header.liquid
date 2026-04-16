@@ -20,9 +20,6 @@
             {{- site.title -}}
           {% endif %}
         </a>
-      {% elsif site.enable_navbar_social %}
-        <!-- Social Icons -->
-        <div class="navbar-brand social">{% social_links %}</div>
       {% endif %}
       <!-- Navbar Toggle -->
       <button
@@ -88,8 +85,6 @@
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
                   {%- if p.permalink contains '://' -%}
                     {%- assign url = p.permalink -%}
-                  {%- elsif p.permalink contains '/blog/' -%}
-                    {%- assign url = '/blog/' -%}
                   {%- else -%}
                     {%- assign url = p.url -%}
                   {%- endif %}
