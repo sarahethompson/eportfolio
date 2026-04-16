@@ -1,6 +1,6 @@
 ---
 layout: module
-title: "Module 3: Machine Learning"
+title: Machine Learning
 permalink: /modules/module-3/
 description: "An introduction to machine learning through practical, hands-on case studies using real-world data."
 importance: 1
