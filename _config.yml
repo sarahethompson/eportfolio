@@ -35,9 +35,6 @@ repo_theme_dark: dark
 navbar_fixed: true
 footer_fixed: true
 search_enabled: true
-socials_in_search: false
-posts_in_search: false
-bib_search: false
 
 # Dimensions
 max_width: 930px
@@ -58,18 +55,6 @@ google_analytics: # Add your Google Analytics ID if desired
 google_site_verification: # Add if using Google Search Console
 
 # -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-
-blog_name: AI Portfolio Blog
-blog_description: Reflections and insights from my AI Master's journey
-permalink: /blog/:year/:title/
-
-# Pagination
-pagination:
-  enabled: false # Disable blog pagination for now
-
-# -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
 
@@ -80,14 +65,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  news:
-    defaults:
-      layout: post
-    output: false
-  books:
-    output: false
-  teachings:
-    output: false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -132,11 +109,9 @@ keep_files:
 plugins:
   - jekyll-archives-v2
   - jekyll-email-protect
-  - jekyll-feed
   - jekyll-imagemagick
   - jekyll-link-attributes
   - jekyll-minifier
-  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-toc
   - jemoji

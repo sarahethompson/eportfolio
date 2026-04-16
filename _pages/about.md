@@ -12,19 +12,6 @@ profile:
     <p>Master's in AI</p>
     <p>Currently studying</p>
     <p>Intelligent Agents module</p>
-
-selected_papers: false # No publications yet
-social: false # Update with your social links if desired
-
-announcements:
-  enabled: false # Can enable later for updates
-  scrollable: true
-  limit: 5
-
-latest_posts:
-  enabled: false # Blog not currently active
-  scrollable: true
-  limit: 3
 ---
 
 <section class="hero-intro">
