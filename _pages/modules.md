@@ -45,6 +45,7 @@ nav_order: 1
             {% endif %}
           {% endfor %}
 
+          {% unless module.hide_unit_count %}
           <p class="text-muted mb-2">
             <small>
               <i class="fas fa-book-open"></i>
@@ -55,6 +56,7 @@ nav_order: 1
               {% endif %}
             </small>
           </p>
+          {% endunless %}
 
           <a href="{{ module.url | relative_url }}" class="btn btn-sm btn-outline-primary">
             View Module <i class="fas fa-arrow-right"></i>
