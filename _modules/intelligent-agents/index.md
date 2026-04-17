@@ -8,20 +8,15 @@ units: 12
 permalink: /modules/intelligent-agents/
 importance: 2
 category: in-progress
+show_notes: false
+show_units: false
 ---
 
 ## Overview
 
-This module explores the fundamental concepts of intelligent agents — software entities that perceive their environment and take actions to achieve specific goals. Drawing on both classical AI theory and contemporary practice, the module examines agent architectures, reasoning mechanisms, communication languages, and multi-agent coordination, culminating in a team design project and individual implementation.
+This module covered the theory and practice of autonomous software agents — architectures, BDI reasoning, multi-agent coordination, and communication languages — culminating in a team design project and individual implementation.
 
-My engagement with this module has been shaped by over twenty years of software engineering experience, which provided both a practical lens for evaluating theoretical concepts and a direct application context: the development of a Risk Informed Deployment Platform at HashiCorp, which draws directly on agent-based and data foundations principles studied here.
-
-## Learning Outcomes
-
-- Identify and critically analyse agent-based systems, differentiating between architectures and approaches.
-- Apply and critically evaluate intelligent agent techniques to real-world problems, particularly where technical risk and uncertainty is involved.
-- Deploy critically appropriate software tools and skills for the design and implementation of an agent-based system, bearing in mind applicable legal, social, ethical, and professional issues.
-- Systematically develop and implement the skills required to be an effective member of a development team in a virtual professional environment, adopting real-life perspectives on team roles and organisation.
+I came to it with a software engineering background rather than an AI research one, which made the formal agent models feel familiar in structure but genuinely new in framing. The learning outcomes — analysing agent architectures, applying agent techniques to real-world problems under uncertainty, building a working system, and contributing as part of a distributed team — mapped closely onto work I was already doing professionally on a Risk Informed Deployment Platform at HashiCorp, which gave me a useful anchor for evaluating the theory.
 
 ## Portfolio Sections
 
