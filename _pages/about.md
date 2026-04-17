@@ -41,12 +41,3 @@ profile:
   </article>
 </section>
 
-## Module Highlights
-
-### Module 3: Machine Learning (Completed)
-- 12 units spanning EDA, regression, clustering, neural networks, and CNNs
-- Team project: Airbnb price prediction and market segmentation (72%, Distinction)
-- Individual project: Object recognition with CNN transfer learning (86%, Distinction)
-
-### Module 4: Intelligent Agents (In Progress)
-- Active development of agent-based analysis and applied autonomous decision models
