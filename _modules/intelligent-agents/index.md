@@ -10,6 +10,7 @@ importance: 2
 category: in-progress
 show_notes: false
 show_units: false
+hide_unit_count: true
 ---
 
 ## Overview
