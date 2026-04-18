@@ -40,15 +40,17 @@ permalink: /modules/intelligent-agents/team-project/
 
 ## Evidence of Individual Contribution
 
-**Google Drive collaboration** — the shared working document showing team contributions and peer review comments during the drafting phase.
+**Google Drive collaboration:** the shared working document showing team contributions and peer review comments during the drafting phase.
 
 <img src="{{ '/assets/img/team_project_gdrive.png' | relative_url }}" alt="Google Drive collaboration on team report" class="img-fluid rounded my-3">
 
-**Design Decisions and Methodology section** — my authored section of the submitted report, covering BDI architectural rationale, agent coordination design, and methodology.
+**Design Decisions and Methodology section:** my authored section of the submitted report, covering BDI architectural rationale, agent coordination design, and methodology.
 
 <img src="{{ '/assets/img/team_project_methodology.png' | relative_url }}" alt="Design Decisions and Methodology section authored by Sarah" class="img-fluid rounded my-3">
 
-**BDI prototype** — I built a working prototype during the project to demonstrate the proposed architecture to the team and test feasibility ahead of the design proposal submission. The notebook is available [here]({{ '/assets/notebooks/intelligent-agents/demo_colab.ipynb' | relative_url }}).
+**BDI prototype:** I built a working prototype during the project to demonstrate the proposed architecture to the team and test feasibility ahead of the design proposal submission.
+
+[View BDI prototype notebook]({{ '/assets/notebooks/intelligent-agents/demo_colab.ipynb' | relative_url }})
 
 ---
 

@@ -17,7 +17,7 @@ permalink: /modules/intelligent-agents/individual-presentation/
 
 **Format:** Recorded video presentation with transcript (approx. 880 words, 6–7 minutes)
 
-The presentation focused on critical evaluation of the individual BDI implementation — specifically where it fell short of the team design proposal, why those gaps existed, and what design decisions were deliberate trade-offs rather than omissions.
+The presentation focused on critical evaluation of the individual BDI implementation: specifically where it fell short of the team design proposal, why those gaps existed, and what design decisions were deliberate trade-offs rather than omissions.
 
 ---
 
@@ -31,7 +31,7 @@ The implementation comprises four specialised agents coordinated via a shared bl
 
 ## BDI Reasoning Cycle
 
-Each agent implements the BDI cycle with belief revision after each action. SearchAgent and ProcessingAgent exhibit full multi-cycle reasoning including intention reconsideration. ExtractionAgent and StorageAgent run single cycles — a deliberate design choice grounded in Bratman's (1987) argument that rational agents should not reconsider intentions without genuine cause.
+Each agent implements the BDI cycle with belief revision after each action. SearchAgent and ProcessingAgent exhibit full multi-cycle reasoning including intention reconsideration. ExtractionAgent and StorageAgent run single cycles, a deliberate design choice grounded in Bratman's (1987) argument that rational agents should not reconsider intentions without genuine cause.
 
 <img src="{{ '/assets/img/bdi_cycle_diagram.png' | relative_url }}" alt="BDI Reasoning Cycle" class="img-fluid rounded my-3">
 
@@ -41,13 +41,13 @@ Each agent implements the BDI cycle with belief revision after each action. Sear
 
 The presentation identified four known limitations, two anticipated in the team design proposal and two that emerged during implementation.
 
-**No persistent state.** Agent beliefs reset on every execution. This is a prerequisite for learning-based filtering but is not sufficient on its own — a learning system also requires a feedback signal, richer features, and an exploration strategy. Without those, persistent storage accumulates observations with no way to evaluate the decisions that produced them.
+**No persistent state.** Agent beliefs reset on every execution. This is a prerequisite for learning-based filtering but is not sufficient on its own: a learning system also requires a feedback signal, richer features, and an exploration strategy. Without those, persistent storage accumulates observations with no way to evaluate the decisions that produced them.
 
 **Dead code path in quality scoring.** The ExtractionAgent populates a `full_text` field with the abstract as a placeholder, and the quality scoring formula includes a bonus for papers with full text over a thousand characters. Because the ArXiv API only returns abstracts, this bonus is unreachable in the current implementation.
 
-**Rule-based filtering.** The ProcessingAgent applies fixed thresholds rather than learned ones. This was a deliberate trade-off: deterministic behaviour makes the test suite reliable. The reconsideration mechanism — triggered when fewer than 30% of results survive filtering — works cleanly in tests because the threshold is fixed. A learned model would make unit testing fragile.
+**Rule-based filtering.** The ProcessingAgent applies fixed thresholds rather than learned ones. This was a deliberate trade-off: deterministic behaviour makes the test suite reliable. The reconsideration mechanism, triggered when fewer than 30% of results survive filtering, works cleanly in tests because the threshold is fixed. A learned model would make unit testing fragile.
 
-**Single data source.** The system queries ArXiv only. Extending to Semantic Scholar or CiteSeer would give ExtractionAgent genuine reconsideration candidates — attempt one source, find incomplete metadata, reconsider and try another.
+**Single data source.** The system queries ArXiv only. Extending to Semantic Scholar or CiteSeer would give ExtractionAgent genuine reconsideration candidates: attempt one source, find incomplete metadata, reconsider and try another.
 
 The progression from the current implementation toward a fully learning-based system is not two steps but three: fixed rules (current), adaptive rules using persistent state to adjust thresholds from observed statistics, and full learning requiring persistent state, a feedback signal, and an exploration strategy. Da Silva, Meneguzzi and Logan (2020) identify integrating learning with BDI reasoning as an open research challenge; Qu et al. (2025) make a similar point in a more recent survey.
 
