@@ -53,7 +53,7 @@ permalink: /modules/intelligent-agents/professional-development/
     </tr>
     <tr>
       <td><strong>Commercial awareness</strong></td>
-      <td><small>Actively applying module learnings professionally — developing a Risk Informed Deployment Platform and agent-based data foundations at HashiCorp, demonstrating direct translation of academic study to industry practice.</small></td>
+      <td><small>Actively applying module learnings professionally, developing a Risk Informed Deployment Platform and agent-based data foundations at HashiCorp, demonstrating direct translation of academic study to industry practice.</small></td>
       <td><span class="badge badge-success">Advanced</span></td>
     </tr>
     <tr>

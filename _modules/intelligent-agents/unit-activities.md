@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Unit Activities
-description: Artefacts from unit exercises — KQML/KIF agent dialogue, constituency parse trees, and deep learning forum post
+description: Artefacts from unit exercises: KQML/KIF agent dialogue, constituency parse trees, and deep learning forum post
 permalink: /modules/intelligent-agents/unit-activities/
 ---
 
@@ -9,7 +9,7 @@ permalink: /modules/intelligent-agents/unit-activities/
 
 ---
 
-## Unit 6 — KQML/KIF Agent Dialogue
+## Unit 6: KQML/KIF Agent Dialogue
 
 **Activity:** Create an agent dialogue using KQML and KIF between two agents (Alice and Bob). Alice is a procurement agent; Bob controls stock levels for a warehouse. The dialogue covers querying available stock of 50-inch televisions and the number of HDMI slots.
 
@@ -99,7 +99,7 @@ permalink: /modules/intelligent-agents/unit-activities/
       <span class="kq-step">01</span>
     </div>
     <div class="kq-code">
-      <div class="kq-code-hdr"><div class="kq-dot"></div><div class="kq-dot"></div><span>KQML — Alice → Bob</span></div>
+      <div class="kq-code-hdr"><div class="kq-dot"></div><div class="kq-dot"></div><span>KQML: Alice → Bob</span></div>
       <pre><span class="t-cmt">; Alice queries Bob for the available stock of 50-inch televisions</span>
 
 (<span class="t-perf">ask-one</span>
@@ -114,7 +114,7 @@ permalink: /modules/intelligent-agents/unit-activities/
         (<span class="t-pred">screen-size</span> <span class="t-num">50</span> <span class="t-sym">inch</span>))
       <span class="t-kif">?quantity</span>))</pre>
     </div>
-    <div class="kq-annot">// ASK-ONE requests a single binding for ?quantity — the number of 50" TVs currently in stock.</div>
+    <div class="kq-annot">// ASK-ONE requests a single binding for ?quantity: the number of 50" TVs currently in stock.</div>
   </div>
 
   <div class="kq-divider">network transmission</div>
@@ -126,7 +126,7 @@ permalink: /modules/intelligent-agents/unit-activities/
       <span class="kq-step">02</span>
     </div>
     <div class="kq-code">
-      <div class="kq-code-hdr"><div class="kq-dot"></div><div class="kq-dot"></div><span>KQML — Bob → Alice</span></div>
+      <div class="kq-code-hdr"><div class="kq-dot"></div><div class="kq-dot"></div><span>KQML: Bob → Alice</span></div>
       <pre><span class="t-cmt">; Bob responds with the current stock level for 50-inch televisions</span>
 
 (<span class="t-perf">tell</span>
@@ -153,7 +153,7 @@ permalink: /modules/intelligent-agents/unit-activities/
       <span class="kq-step">03</span>
     </div>
     <div class="kq-code">
-      <div class="kq-code-hdr"><div class="kq-dot"></div><div class="kq-dot"></div><span>KQML — Alice → Bob</span></div>
+      <div class="kq-code-hdr"><div class="kq-dot"></div><div class="kq-dot"></div><span>KQML: Alice → Bob</span></div>
       <pre><span class="t-cmt">; Alice follows up, querying the number of HDMI slots on the 50-inch televisions</span>
 
 (<span class="t-perf">ask-one</span>
@@ -180,7 +180,7 @@ permalink: /modules/intelligent-agents/unit-activities/
       <span class="kq-step">04</span>
     </div>
     <div class="kq-code">
-      <div class="kq-code-hdr"><div class="kq-dot"></div><div class="kq-dot"></div><span>KQML — Bob → Alice</span></div>
+      <div class="kq-code-hdr"><div class="kq-dot"></div><div class="kq-dot"></div><span>KQML: Bob → Alice</span></div>
       <pre><span class="t-cmt">; Bob responds with the HDMI slot count for the stocked 50-inch television model</span>
 
 (<span class="t-perf">tell</span>
@@ -205,27 +205,27 @@ permalink: /modules/intelligent-agents/unit-activities/
   <div class="kq-acard">
     <h4>KQML Performatives Used</h4>
     <ul>
-      <li><span style="color:#0d7377">ask-one</span> — requests a single answer binding</li>
-      <li><span style="color:#b5621e">tell</span> — asserts a ground fact as true</li>
-      <li><span style="color:#6b7280">reply-with / in-reply-to</span> — correlate request–response pairs</li>
+      <li><span style="color:#0d7377">ask-one</span>: requests a single answer binding</li>
+      <li><span style="color:#b5621e">tell</span>: asserts a ground fact as true</li>
+      <li><span style="color:#6b7280">reply-with / in-reply-to</span>: correlate request–response pairs</li>
     </ul>
   </div>
   <div class="kq-acard">
     <h4>Message Parameters</h4>
     <ul>
-      <li><span style="color:#0d7377">:sender / :receiver</span> — agent identity</li>
-      <li><span style="color:#0d7377">:language</span> — content language (KIF)</li>
-      <li><span style="color:#0d7377">:ontology</span> — shared knowledge model</li>
-      <li><span style="color:#0d7377">:content</span> — semantic payload</li>
+      <li><span style="color:#0d7377">:sender / :receiver</span>: agent identity</li>
+      <li><span style="color:#0d7377">:language</span>: content language (KIF)</li>
+      <li><span style="color:#0d7377">:ontology</span>: shared knowledge model</li>
+      <li><span style="color:#0d7377">:content</span>: semantic payload</li>
     </ul>
   </div>
   <div class="kq-acard">
     <h4>KIF Constructs Used</h4>
     <ul>
-      <li><span style="color:#7c3aed">?quantity / ?slots</span> — logical variables</li>
-      <li><span style="color:#7c3aed">available-stock</span> — domain predicate</li>
-      <li><span style="color:#7c3aed">has-feature</span> — property predicate</li>
-      <li><span style="color:#7c3aed">television / hdmi-slots</span> — term constructors</li>
+      <li><span style="color:#7c3aed">?quantity / ?slots</span>: logical variables</li>
+      <li><span style="color:#7c3aed">available-stock</span>: domain predicate</li>
+      <li><span style="color:#7c3aed">has-feature</span>: property predicate</li>
+      <li><span style="color:#7c3aed">television / hdmi-slots</span>: term constructors</li>
     </ul>
   </div>
   <div class="kq-acard">
@@ -241,14 +241,14 @@ permalink: /modules/intelligent-agents/unit-activities/
 
 <div class="kq-why">
   <h4>Why ASK-ONE, not ASK-ALL?</h4>
-  <p>ASK-ONE is appropriate here because the ontology models each screen-size category as a single typed entity with a unique stock figure. There is only one binding for ?quantity (and ?slots) that satisfies the predicate. ASK-ALL would be used if Alice needed all television models matching a partial description — for example, all screen sizes above 40 inches.</p>
+  <p>ASK-ONE is appropriate here because the ontology models each screen-size category as a single typed entity with a unique stock figure. There is only one binding for ?quantity (and ?slots) that satisfies the predicate. ASK-ALL would be used if Alice needed all television models matching a partial description, for example all screen sizes above 40 inches.</p>
 </div>
 
 </div>
 
 ---
 
-## Unit 8 — Constituency Parse Trees
+## Unit 8: Constituency Parse Trees
 
 **Activity:** Create constituency-based parse trees for three phrases: *The government raised interest rates*, *The internet gives everyone a voice*, and *The man saw the dog with the telescope*.
 
@@ -343,7 +343,7 @@ permalink: /modules/intelligent-agents/unit-activities/
         <text x="466" y="268" text-anchor="middle" fill="#374151" font-size="11" font-family="monospace">rates</text>
       </svg>
     </div>
-    <div class="pt-annot"><strong>S → NP VP</strong> | <strong>NP → DT N</strong> ("The government") | <strong>VP → V NP</strong> | <strong>NP → N N</strong> ("interest rates" — noun-noun compound, no determiner required)</div>
+    <div class="pt-annot"><strong>S → NP VP</strong> | <strong>NP → DT N</strong> ("The government") | <strong>VP → V NP</strong> | <strong>NP → N N</strong> ("interest rates", noun-noun compound, no determiner required)</div>
   </div>
 </div>
 
@@ -351,7 +351,7 @@ permalink: /modules/intelligent-agents/unit-activities/
 <div class="pt-section">
   <div class="pt-th"><span class="pt-tn">Sentence 02</span><span class="pt-sent">"The internet gives everyone a voice."</span></div>
   <div class="pt-card">
-    <div class="pt-card-hdr"><div class="pt-dot"></div><div class="pt-dot"></div><div class="pt-dot"></div><span style="margin-left:4px">Constituency Parse Tree — Ditransitive Verb</span></div>
+    <div class="pt-card-hdr"><div class="pt-dot"></div><div class="pt-dot"></div><div class="pt-dot"></div><span style="margin-left:4px">Constituency Parse Tree: Ditransitive Verb</span></div>
     <div class="pt-tree-wrap">
       <svg viewBox="0 0 560 295" xmlns="http://www.w3.org/2000/svg">
         <rect x="262" y="10" width="36" height="22" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1"/><text x="280" y="25" text-anchor="middle" fill="#dc2626" font-size="12" font-weight="500" font-family="monospace">S</text>
@@ -389,7 +389,7 @@ permalink: /modules/intelligent-agents/unit-activities/
         <text x="518" y="288" text-anchor="middle" fill="#374151" font-size="11" font-family="monospace">voice</text>
       </svg>
     </div>
-    <div class="pt-annot"><strong>S → NP VP</strong> | <strong>NP → DT N</strong> ("The internet") | <strong>VP → V NP NP</strong> (ditransitive) | <strong>NP → N</strong> ("everyone") | <strong>NP → DT N</strong> ("a voice") — "gives" takes both an indirect and direct object.</div>
+    <div class="pt-annot"><strong>S → NP VP</strong> | <strong>NP → DT N</strong> ("The internet") | <strong>VP → V NP NP</strong> (ditransitive) | <strong>NP → N</strong> ("everyone") | <strong>NP → DT N</strong> ("a voice"): "gives" takes both an indirect and direct object.</div>
   </div>
 </div>
 
@@ -397,8 +397,8 @@ permalink: /modules/intelligent-agents/unit-activities/
 <div class="pt-section">
   <div class="pt-th"><span class="pt-tn">Sentence 03</span><span class="pt-sent">"The man saw the dog with the telescope."</span></div>
   <div class="pt-card">
-    <div class="pt-card-hdr"><div class="pt-dot"></div><div class="pt-dot"></div><div class="pt-dot"></div><span style="margin-left:4px">Structural Ambiguity — Two Valid Parse Trees</span></div>
-    <div class="pt-amb">⚠ "with the telescope" can attach to VP or NP — producing two different readings.</div>
+    <div class="pt-card-hdr"><div class="pt-dot"></div><div class="pt-dot"></div><div class="pt-dot"></div><span style="margin-left:4px">Structural Ambiguity: Two Valid Parse Trees</span></div>
+    <div class="pt-amb">⚠ "with the telescope" can attach to VP or NP, producing two different readings.</div>
     <div class="pt-split">
       <div class="pt-sp">
         <svg viewBox="0 0 340 380" xmlns="http://www.w3.org/2000/svg">
@@ -496,8 +496,8 @@ permalink: /modules/intelligent-agents/unit-activities/
       </div>
     </div>
     <div class="pt-split-labels">
-      <div class="pt-sl"><strong>Reading A — PP attaches to VP</strong>VP → V NP PP · The man used a telescope to see the dog.</div>
-      <div class="pt-sl"><strong>Reading B — PP attaches to NP</strong>NP → DT N PP · The man saw the dog that had a telescope.</div>
+      <div class="pt-sl"><strong>Reading A: PP attaches to VP</strong>VP → V NP PP · The man used a telescope to see the dog.</div>
+      <div class="pt-sl"><strong>Reading B: PP attaches to NP</strong>NP → DT N PP · The man saw the dog that had a telescope.</div>
     </div>
     <div class="pt-annot"><strong>Attachment ambiguity:</strong> Both trees are grammatically valid under the same CFG rules. Probabilistic parsers trained on annotated treebanks assign Reading A a higher probability in most contexts, as PP-to-VP attachment is statistically more common in English. NLP systems cannot rely on grammar rules alone to resolve this.</div>
   </div>
@@ -521,7 +521,7 @@ permalink: /modules/intelligent-agents/unit-activities/
 
 ---
 
-## Unit 10 — Deep Learning in Action
+## Unit 10: Deep Learning in Action
 
 **Activity:** Research an application of deep learning with significant societal impact and post to the discussion forum covering an overview, how it works, and socio-technical implications.
 
@@ -529,11 +529,11 @@ permalink: /modules/intelligent-agents/unit-activities/
 
 ### Deep Learning in Oncological Radiomics
 
-Radiomics is the large-scale extraction of quantitative features from medical images — CT, MRI, and PET scans — which are then used to build predictive models for tumour characterisation, treatment response, prognosis, and disease staging. Where traditional radiology relies on features visible to the human eye, deep learning-based radiomics extracts high-dimensional patterns imperceptible to clinicians, enabling a richer, more granular analysis of tumour biology from routine imaging data (Liu et al., 2019). Publications in this field have grown dramatically, from just 6 in 2015 to over 1,100 by 2024, reflecting the pace at which this technology is entering clinical practice.
+Radiomics is the large-scale extraction of quantitative features from medical images (CT, MRI, and PET scans), which are then used to build predictive models for tumour characterisation, treatment response, prognosis, and disease staging. Where traditional radiology relies on features visible to the human eye, deep learning-based radiomics extracts high-dimensional patterns imperceptible to clinicians, enabling a richer, more granular analysis of tumour biology from routine imaging data (Liu et al., 2019). Publications in this field have grown dramatically, from just 6 in 2015 to over 1,100 by 2024, reflecting the pace at which this technology is entering clinical practice.
 
 #### How It Works
 
-A deep learning radiomics pipeline typically involves four stages. First, a region of interest — the tumour or surrounding tissue — is segmented from the medical image, either manually by a clinician or automatically using convolutional neural networks (CNNs). Second, hundreds or thousands of quantitative features are extracted, covering shape, texture, intensity, and spatial relationships within the tissue. Third, deep learning models — most commonly CNNs or transformer-based architectures — are trained on these features alongside clinical outcomes such as survival data or treatment response. Finally, the trained model generates predictions for new patients, supporting clinical decision-making (Lambin et al., 2017).
+A deep learning radiomics pipeline typically involves four stages. First, a region of interest (the tumour or surrounding tissue) is segmented from the medical image, either manually by a clinician or automatically using convolutional neural networks (CNNs). Second, hundreds or thousands of quantitative features are extracted, covering shape, texture, intensity, and spatial relationships within the tissue. Third, deep learning models, most commonly CNNs or transformer-based architectures, are trained on these features alongside clinical outcomes such as survival data or treatment response. Finally, the trained model generates predictions for new patients, supporting clinical decision-making (Lambin et al., 2017).
 
 #### Socio-Technical and Ethical Implications
 
@@ -547,11 +547,11 @@ Despite its promise, deep learning radiomics raises significant ethical and prac
 
 **Data privacy** is a further concern. Radiomics requires large, richly annotated datasets of sensitive medical images, often necessitating data sharing across institutions and national boundaries. Patient consent frameworks for secondary use of imaging data vary significantly across jurisdictions.
 
-**Clinical liability** remains unresolved. If a radiomic model contributes to a misdiagnosis or an incorrect prognosis, the question of who bears responsibility — the clinician, the institution, or the software developer — has no clear legal answer in most healthcare systems.
+**Clinical liability** remains unresolved. If a radiomic model contributes to a misdiagnosis or an incorrect prognosis, the question of who bears responsibility: the clinician, the institution, or the software developer, has no clear legal answer in most healthcare systems.
 
 #### Conclusion
 
-Deep learning radiomics represents one of the most genuinely transformative applications of AI in medicine, with the potential to deliver personalised, non-invasive insights into tumour biology that were previously impossible. However, its societal impact will depend critically on how the research community and regulators address reproducibility, bias, interpretability, and accountability — challenges that are as much ethical and institutional as they are technical.
+Deep learning radiomics represents one of the most genuinely transformative applications of AI in medicine, with the potential to deliver personalised, non-invasive insights into tumour biology that were previously impossible. However, its societal impact will depend critically on how the research community and regulators address reproducibility, bias, interpretability, and accountability, challenges that are as much ethical and institutional as they are technical.
 
 **References**
 
