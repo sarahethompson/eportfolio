@@ -17,6 +17,8 @@ permalink: /modules/intelligent-agents/team-project/
 
 **My role:** Project Lead / primary coordinator, responsible for team communication, BDI prototype implementation, design decisions and methodology section, and final report coordination.
 
+**Submitted:** 5 March 2026
+
 **Deliverable:** A design proposal for a multi-agent system applying the Belief–Desire–Intention (BDI) architectural model to academic research retrieval, comprising Search, Extraction, Processing, and Storage agents coordinated via a shared blackboard environment.
 
 ---
