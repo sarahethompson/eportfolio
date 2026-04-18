@@ -5,7 +5,7 @@ module: intelligent-agents
 module_title: "Module 4: Intelligent Agents"
 order: 1
 summary: "An introduction to the concept of intelligent agents, their properties, and basic architectures."
-published: true
+published: false
 ---
 
 ## Summary
