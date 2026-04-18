@@ -29,4 +29,12 @@ I came to it with a software engineering background rather than an AI research o
 
 ## Submissions
 
-*Submission links will be added on completion of the module.*
+**Assignment 1 — Group Design Project** (submitted 5 March 2026)
+
+- [Group report (DOCX)]({{ '/assets/pdf/group-project-report.docx' | relative_url }})
+
+**Assignment 2 — Individual Presentation** (submitted 13 April 2026)
+
+- [Presentation slides (PPTX)]({{ '/assets/pdf/final-presentation.pptx' | relative_url }})
+- [Transcript (DOCX)]({{ '/assets/pdf/final-presentation-transcript.docx' | relative_url }})
+- Recording submitted via portal (not hosted here due to file size)
