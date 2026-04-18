@@ -3,7 +3,6 @@ layout: module
 title: Intelligent Agents
 description: Exploring autonomous agents, multi-agent systems, rational behaviour, and agent-based modelling in AI
 status: in-progress
-module_number: 4
 units: 12
 permalink: /modules/intelligent-agents/
 importance: 2
@@ -36,5 +35,4 @@ I came to it with a software engineering background rather than an AI research o
 **Assignment 2 — Individual Presentation** (submitted 13 April 2026)
 
 - [Presentation slides (PPTX)]({{ '/assets/pdf/final-presentation.pptx' | relative_url }})
-- [Transcript (DOCX)]({{ '/assets/pdf/final-presentation-transcript.docx' | relative_url }})
 - Recording submitted via portal (not hosted here due to file size)
