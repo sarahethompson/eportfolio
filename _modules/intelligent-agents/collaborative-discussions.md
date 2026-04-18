@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Collaborative Discussions
-description: Summaries from three unit discussion forums — agent-based systems, agent communication languages, and deep learning applications
+description: Summaries from three unit discussion forums on agent-based systems, agent communication languages, and deep learning applications
 permalink: /modules/intelligent-agents/collaborative-discussions/
 ---
 
@@ -9,7 +9,7 @@ permalink: /modules/intelligent-agents/collaborative-discussions/
 
 ---
 
-## Discussion 1 — Agent-Based Systems (Units 1–3)
+## Discussion 1: Agent-Based Systems (Units 1–3)
 
 **Topic:** Why agent-based approaches are increasingly relevant to organisations operating in complex, rapidly evolving environments.
 
@@ -17,14 +17,16 @@ The discussion centred on three properties that make agent-based approaches well
 
 ---
 
-## Discussion 2 — Agent Communication Languages (Units 5–7)
+## Discussion 2: Agent Communication Languages (Units 5–7)
 
 **Topic:** The evolution of agent communication design, from KQML to modern LLM-based frameworks, and the tensions that persist between formal and natural language approaches.
 
-My initial post argued that KQML's core contribution was encoding communicative intent explicitly through speech-act performatives — something method invocation in standard languages cannot do (Mayfield et al., 1996). Peer exchange extended this in two directions: LLM frameworks like AutoGen replace explicit performatives with natural language inference, which is flexible but sacrifices auditability (Wu et al., 2023); and domain standards like HL7 FHIR handle data but carry no intent, recreating the original gap. My conclusion was that the field has redistributed rather than solved the agent communication problem, with intent, trust, and verifiability remaining unresolved at each stage.
+My initial post argued that KQML's core contribution was encoding communicative intent explicitly through speech-act performatives, something method invocation in standard languages cannot do (Mayfield et al., 1996). Peer exchange extended this in two directions: LLM frameworks like AutoGen replace explicit performatives with natural language inference, which is flexible but sacrifices auditability (Wu et al., 2023); and domain standards like HL7 FHIR handle data but carry no intent, recreating the original gap. My conclusion was that the field has redistributed rather than solved the agent communication problem, with intent, trust, and verifiability remaining unresolved at each stage.
 
 ---
 
-## Discussion 3 — Deep Learning Applications (Units 9–11)
+## Discussion 3: Deep Learning Applications (Units 9–11)
 
-*Summary to be added on completion of the discussion forum.*
+**Topic:** Ethical concerns arising from generative AI, with a focus on AI-assisted code generation as a high-stakes domain that is underexplored relative to its rate of adoption.
+
+My initial post focused on security vulnerabilities, deskilling risks, and unresolved intellectual property questions in AI-assisted code generation, against a governance gap the IAPP (2024) quantifies as 75% of organisations having usage policies but only 36% having formal frameworks. Peer contributions broadened the frame: transparency and explainability as a structural accountability problem (Goktas, 2024); bias as a training data issue that manifests differently across domains (Buolamwini and Gebru, 2018); and copyright uncertainty extending beyond code to image and text generation (Gervais, 2020). The summary post drew these threads together: insecure code, biased clinical models, copyright exposure, and opaque decision-making are not separate problems but the same pattern: deployment consistently outpacing the accountability structures around it, expressed across different domains.
