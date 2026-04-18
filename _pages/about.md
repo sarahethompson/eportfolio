@@ -29,7 +29,7 @@ profile:
 <section class="focus-grid">
   <article class="focus-card">
     <h3>Current Focus</h3>
-    <p>Module 4: Intelligent Agents, including agent architectures, decision-making, and multi-agent systems.</p>
+    <p>Intelligent Agents, including agent architectures, decision-making, and multi-agent systems.</p>
   </article>
   <article class="focus-card">
     <h3>Technical Emphasis</h3>

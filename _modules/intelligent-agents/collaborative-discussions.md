@@ -35,4 +35,24 @@ My initial post argued that KQML's core contribution was encoding communicative 
 
 [View forum thread](https://www.my-course.co.uk/mod/forum/view.php?id=1304195)
 
-My initial post focused on security vulnerabilities, deskilling risks, and unresolved intellectual property questions in AI-assisted code generation, against a governance gap the IAPP (2024) quantifies as 75% of organisations having usage policies but only 36% having formal frameworks. Peer contributions broadened the frame: transparency and explainability as a structural accountability problem (Goktas, 2024); bias as a training data issue that manifests differently across domains (Buolamwini and Gebru, 2018); and copyright uncertainty extending beyond code to image and text generation (Gervais, 2020). The summary post drew these threads together: insecure code, biased clinical models, copyright exposure, and opaque decision-making are not separate problems but the same pattern: deployment consistently outpacing the accountability structures around it, expressed across different domains.
+My initial post focused on security vulnerabilities, deskilling risks, and unresolved intellectual property questions in AI-assisted code generation, against a significant governance gap between policy adoption and formal accountability frameworks. Peer contributions broadened the frame: transparency and explainability as a structural accountability problem (Goktas, 2024); bias as a training data issue that manifests differently across domains (Buolamwini and Gebru, 2018); and copyright uncertainty extending beyond code to image and text generation (Gervais, 2020). The summary post drew these threads together: insecure code, biased clinical models, copyright exposure, and opaque decision-making are not separate problems but the same pattern: deployment consistently outpacing the accountability structures around it, expressed across different domains.
+
+---
+
+## References
+
+Bonabeau, E. (2002) 'Agent-based modeling: methods and techniques for simulating human systems', *Proceedings of the National Academy of Sciences*, 99(Supplement 3), pp. 7280–7287. Available at: https://doi.org/10.1073/pnas.082080899 [Accessed: 18 April 2026].
+
+Buolamwini, J. and Gebru, T. (2018) 'Gender shades: intersectional accuracy disparities in commercial gender classification', in Friedler, S.A. and Wilson, C. (eds.) *Proceedings of the 1st Conference on Fairness, Accountability and Transparency*. Proceedings of Machine Learning Research, vol. 81. PMLR, pp. 77–91. Available at: https://proceedings.mlr.press/v81/buolamwini18a.html [Accessed: 18 April 2026].
+
+Gervais, D.J. (2020) 'The machine as author', *Iowa Law Review*, 105(5), pp. 2053–2106.
+
+Goktas, P. (2024) 'Ethics, transparency, and explainability in generative AI decision-making systems: a comprehensive bibliometric study', *Journal of Decision Systems*, pp. 1–29.
+
+Mayfield, J., Labrou, Y. and Finin, T. (1996) 'Evaluation of KQML as an agent communication language', in Wooldridge, M., Müller, J.P. and Tambe, M. (eds.) *Intelligent Agents II: Agent Theories, Architectures, and Languages*. Lecture Notes in Artificial Intelligence, vol. 1037. Berlin: Springer, pp. 347–360.
+
+Russell, S. and Norvig, P. (2021) *Artificial Intelligence: A Modern Approach*. 4th edn. Hoboken, NJ: Pearson.
+
+Wooldridge, M.J. (2009) *An Introduction to MultiAgent Systems*. 2nd edn. Chichester: John Wiley and Sons.
+
+Wu, Q., Bansal, G., Zhang, J., Wu, Y., Li, B., Zhu, E., Jiang, L., Zhang, X., Zhang, S., Liu, J., Awadallah, A.H., White, R.W., Burger, D. and Wang, C. (2023) *AutoGen: enabling next-gen LLM applications via multi-agent conversation*. arXiv preprint arXiv:2308.08155. Available at: https://arxiv.org/abs/2308.08155 [Accessed: 18 April 2026].
