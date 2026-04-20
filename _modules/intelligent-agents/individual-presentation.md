@@ -15,7 +15,7 @@ permalink: /modules/intelligent-agents/individual-presentation/
 
 **Submitted:** 13 April 2026
 
-**Format:** Recorded video presentation with transcript (approx. 880 words, 6–7 minutes)
+**Format:** Recorded video presentation with transcript (approx. 2,000 words, 20 minutes)
 
 The presentation covered the full individual implementation of the BDI multi-agent academic research system: system architecture, blackboard coordination, BDI reasoning cycles for each agent, deliberation and reconsideration in action, test coverage across 26 passing tests, and a live demo. The final section critically evaluated where the system met the team design proposal, where it fell short, and what a credible path forward would look like.
 
