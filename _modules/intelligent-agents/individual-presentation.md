@@ -11,13 +11,13 @@ permalink: /modules/intelligent-agents/individual-presentation/
 
 ## Overview
 
-**Title:** Limitations, Persistent State, and the Rule-Based Design Choice
+**Title:** Multi-Agent Academic Research System: Practical Implementation and Critical Evaluation
 
 **Submitted:** 13 April 2026
 
 **Format:** Recorded video presentation with transcript (approx. 880 words, 6–7 minutes)
 
-The presentation focused on critical evaluation of the individual BDI implementation: specifically where it fell short of the team design proposal, why those gaps existed, and what design decisions were deliberate trade-offs rather than omissions.
+The presentation covered the full individual implementation of the BDI multi-agent academic research system: system architecture, blackboard coordination, BDI reasoning cycles for each agent, deliberation and reconsideration in action, test coverage across 26 passing tests, and a live demo. The final section critically evaluated where the system met the team design proposal, where it fell short, and what a credible path forward would look like.
 
 ---
 
