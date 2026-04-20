@@ -20,7 +20,7 @@ I came to it with a software engineering background rather than an AI research o
 
 ## Portfolio Sections
 
-- [Collaborative Discussions](/eportfolio/modules/intelligent-agents/collaborative-discussions/): summaries of three unit discussion forums covering agent-based systems, agent communication languages, and a third topic to be added on completion
+- [Collaborative Discussions](/eportfolio/modules/intelligent-agents/collaborative-discussions/): summaries of three unit discussion forums covering agent-based systems, agent communication languages, and the ethics of generative AI
 - [Unit Activities](/eportfolio/modules/intelligent-agents/unit-activities/): KQML/KIF agent dialogue (Unit 6), constituency parse trees (Unit 8), and deep learning forum post (Unit 10)
 - [Team Project](/eportfolio/modules/intelligent-agents/team-project/): meeting notes, coordination record, and tutor feedback from the Group E BDI multi-agent system design project
 - [Individual Presentation](/eportfolio/modules/intelligent-agents/individual-presentation/): individual implementation, system diagrams, and critical evaluation of design decisions
